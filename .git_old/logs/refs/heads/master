@@ -1,0 +1,355 @@
+0000000000000000000000000000000000000000 e574fac710851e40f7b6d32dedc92cffade6545e Amir Mehrabi <aut0run2011@gmail.com> 1485838533 +0330	commit (initial): initial commit
+e574fac710851e40f7b6d32dedc92cffade6545e c6c26b01fd44b0c44ef3c87de84451e48d130a35 Amir Mehrabi <aut0run2011@gmail.com> 1485838632 +0330	commit: added bican/roles to composer
+c6c26b01fd44b0c44ef3c87de84451e48d130a35 4b8b18f1fc747e651511387c7d6716e5b3da334f Amir Mehrabi <aut0run2011@gmail.com> 1485838667 +0330	commit: added app service provider for bican/roles
+4b8b18f1fc747e651511387c7d6716e5b3da334f e5f48552dac2265fdbf56a08de8ff3e45b688b50 Amir Mehrabi <aut0run2011@gmail.com> 1485838697 +0330	commit: published proper configurations for roles.
+e5f48552dac2265fdbf56a08de8ff3e45b688b50 7db67f68de9574c3d4fa57141968ab42768ddf2c Amir Mehrabi <aut0run2011@gmail.com> 1485838724 +0330	commit: published proper migrations for bican/roles
+7db67f68de9574c3d4fa57141968ab42768ddf2c e40087486d4c16c50be5912ddc9c9cf29877a27b Amir Mehrabi <aut0run2011@gmail.com> 1485839761 +0330	commit: installed bican successfully.
+e40087486d4c16c50be5912ddc9c9cf29877a27b e6e798d7af36113dbfa5a5bc88d0c5efbf0bb557 Amir Mehrabi <aut0run2011@gmail.com> 1485932484 +0330	commit: added functionality to add lessons
+e6e798d7af36113dbfa5a5bc88d0c5efbf0bb557 55e8ed98cae4105437a40ddb4619903b0e2339ba Amir Mehrabi <aut0run2011@gmail.com> 1485939238 +0330	commit: added a model for questions
+55e8ed98cae4105437a40ddb4619903b0e2339ba f8581d8912bfee48904efdf2b14b558984d5f77c Amir Mehrabi <aut0run2011@gmail.com> 1485941063 +0330	commit: completed functionality to add lesson
+f8581d8912bfee48904efdf2b14b558984d5f77c 216456f84ad5262eba694488d5ef0d0da5d36b7c Amir Mehrabi <aut0run2011@gmail.com> 1485942092 +0330	commit: fixed wrong user and auth id in question table
+216456f84ad5262eba694488d5ef0d0da5d36b7c 65096f44b02039518a0ec5f0d1cf6308e94786e4 Amir Mehrabi <aut0run2011@gmail.com> 1485942301 +0330	commit: fixed wrong route of homepage
+65096f44b02039518a0ec5f0d1cf6308e94786e4 54abdbd93735d61104d9df89f55e40195fb8deb1 Amir Mehrabi <aut0run2011@gmail.com> 1485942470 +0330	commit: now lessons will store if there's absolutely no error
+54abdbd93735d61104d9df89f55e40195fb8deb1 a6d2ca57e60eeb00ad00ef1dae4ebb79e7d3efc1 Amir Mehrabi <aut0run2011@gmail.com> 1485945532 +0330	commit: moved my views to masterpages.
+a6d2ca57e60eeb00ad00ef1dae4ebb79e7d3efc1 71cdfcad0d6a52133704bfa6f1a1fa4fe8c9b908 Amir Mehrabi <aut0run2011@gmail.com> 1486014929 +0330	commit: converted my forms to models
+71cdfcad0d6a52133704bfa6f1a1fa4fe8c9b908 63993bb7b536a2056061b550406f6f340e56888f Amir Mehrabi <aut0run2011@gmail.com> 1486024966 +0330	commit: added migration for answers table.
+63993bb7b536a2056061b550406f6f340e56888f cff082937715286a146a2261ed74029cf5adcb1e Amir Mehrabi <aut0run2011@gmail.com> 1486367787 +0330	commit: added pivot table for courses and lessons
+cff082937715286a146a2261ed74029cf5adcb1e 62eced7e1b84941346ad04a62ec646dd61822a48 Amir Mehrabi <aut0run2011@gmail.com> 1486448157 +0330	commit: added a controller for questions
+62eced7e1b84941346ad04a62ec646dd61822a48 94662bda770dcea53ffa3873eda44d19d1699758 Amir Mehrabi <aut0run2011@gmail.com> 1486465524 +0330	commit: added a view for questions
+94662bda770dcea53ffa3873eda44d19d1699758 b2126d6eb86451b1ee0cf6b6fd2c8a66a748b25f Amir Mehrabi <aut0run2011@gmail.com> 1486533836 +0330	commit: added a resourse controller for lessons.
+b2126d6eb86451b1ee0cf6b6fd2c8a66a748b25f 500283013ad1bc796928afff745c23cc94ee9834 Amir Mehrabi <aut0run2011@gmail.com> 1486535025 +0330	commit: moved all methods related to lessons to their own controller
+500283013ad1bc796928afff745c23cc94ee9834 e80064617ad541f72ef71c8c0182076f1afe4333 Amir Mehrabi <aut0run2011@gmail.com> 1486535080 +0330	commit: removed unnecessary methods from HomeController
+e80064617ad541f72ef71c8c0182076f1afe4333 8781a5cd8f8d5b4b3ecab32d8a4b842e395d0ee9 Amir Mehrabi <aut0run2011@gmail.com> 1486544318 +0330	commit: made a list view for questions of each lesson.
+8781a5cd8f8d5b4b3ecab32d8a4b842e395d0ee9 29e7676c498ff9c63869b5b9b5a399e55a1accc3 Amir Mehrabi <aut0run2011@gmail.com> 1486544391 +0330	commit: fixed a minor issue in grid system
+29e7676c498ff9c63869b5b9b5a399e55a1accc3 a2d231a7f6553dd1b28a9a71c708aacea8f3cc62 Amir Mehrabi <aut0run2011@gmail.com> 1486544448 +0330	commit: moved course form view to content-box
+a2d231a7f6553dd1b28a9a71c708aacea8f3cc62 dce5a2d76d6a06715499f75e84abf68361ad96e0 Amir Mehrabi <aut0run2011@gmail.com> 1486549479 +0330	commit: added a delete button for questions
+dce5a2d76d6a06715499f75e84abf68361ad96e0 bfe4e1fe67f91c938e95aa51c5356f1d9ad1cd35 Amir Mehrabi <aut0run2011@gmail.com> 1486629663 +0330	commit: added a view for exam
+bfe4e1fe67f91c938e95aa51c5356f1d9ad1cd35 9c71a500d5a7832e58f2ec10834413903a398450 Amir Mehrabi <aut0run2011@gmail.com> 1486638798 +0330	commit: fixed an issue with number of answered question
+9c71a500d5a7832e58f2ec10834413903a398450 6af248fc9a7c7c165ed6ec58f7ca3ea495114d81 Amir Mehrabi <aut0run2011@gmail.com> 1486639158 +0330	commit: modified README file
+6af248fc9a7c7c165ed6ec58f7ca3ea495114d81 1f239a905ac882f3398b3d01f318e562a298fcf5 Amir Mehrabi <aut0run2011@gmail.com> 1486799798 +0330	commit: added prope columns to question and answer table for grades and scores
+1f239a905ac882f3398b3d01f318e562a298fcf5 053730412efc340dfd6280105c3ec0fef6def746 Amir Mehrabi <aut0run2011@gmail.com> 1486889192 +0330	commit: fixed issues related to exam's information, or should I say, misinformation
+053730412efc340dfd6280105c3ec0fef6def746 262808d10f87110760e2bc4191e65b4664effaef Amir Mehrabi <aut0run2011@gmail.com> 1486889241 +0330	commit: made a nice and clear view for exam page
+262808d10f87110760e2bc4191e65b4664effaef 6f368c09d7e22153fcb45bd532a9b77a7746cb50 Amir Mehrabi <aut0run2011@gmail.com> 1486889865 +0330	commit: cleaned the view of exams page
+6f368c09d7e22153fcb45bd532a9b77a7746cb50 914aabe2301fbbd806a82f732a97003e5ab1ad4f Amir Mehrabi <aut0run2011@gmail.com> 1486894416 +0330	commit: added proper fields to manage grades and scores
+914aabe2301fbbd806a82f732a97003e5ab1ad4f e4904fb7aadf8d6f9a4483ac54ed1aadf43b5e49 Amir Mehrabi <aut0run2011@gmail.com> 1486895591 +0330	commit: made some improvements.
+e4904fb7aadf8d6f9a4483ac54ed1aadf43b5e49 24dd9331b76a6ddd3f4a9bc8fabd4bb445fad498 Amir Mehrabi <aut0run2011@gmail.com> 1490505433 +0430	commit: Fixed some minor issues. Made a couple of changes to the views
+24dd9331b76a6ddd3f4a9bc8fabd4bb445fad498 22361e21d568729e054361534e991a0490ed35de Amir Mehrabi <aut0run2011@gmail.com> 1490508796 +0430	commit: Added a model + migration for categories.
+22361e21d568729e054361534e991a0490ed35de 7099cf635a9633ba0f10597196df2a0f149378e8 Amir Mehrabi <aut0run2011@gmail.com> 1490508820 +0430	commit: Made a controller for categories.
+7099cf635a9633ba0f10597196df2a0f149378e8 fe0082193cdb78234a347ae20aa583bc4d14624f Amir Mehrabi <aut0run2011@gmail.com> 1493039009 +0430	commit: Created a model + migration for news section
+fe0082193cdb78234a347ae20aa583bc4d14624f 2a423c1db514cdc87f6f0045f2c7ffa3622eb272 Amir Mehrabi <aut0run2011@gmail.com> 1493193111 +0430	commit: Completed Vocabulary's migration and created a migration for vocabulary categories
+2a423c1db514cdc87f6f0045f2c7ffa3622eb272 943b6a98c16a87957f0fbf7754cb29897cf638bb Amir Mehrabi <aut0run2011@gmail.com> 1493200201 +0430	commit: Created a prototype view for "post page" and "posts archive"
+943b6a98c16a87957f0fbf7754cb29897cf638bb cc16b2c3d66529ab05fdd59b3927006d8f74a0de Amir Mehrabi <aut0run2011@gmail.com> 1493264571 +0430	commit: Made some changes in vocab views
+cc16b2c3d66529ab05fdd59b3927006d8f74a0de 84b054af5d1b83303b64b30ac2871ab8d3c16f13 Amir Mehrabi <aut0run2011@gmail.com> 1493264602 +0430	commit: Created a controller for vocabs
+84b054af5d1b83303b64b30ac2871ab8d3c16f13 e8e436686c527122ab4e6473e9a417757f492efb Amir Mehrabi <aut0run2011@gmail.com> 1493268539 +0430	commit: Installed Intervention
+e8e436686c527122ab4e6473e9a417757f492efb 27175648797ee6f45252ca1f9486d7d0ebdcabd0 Amir Mehrabi <aut0run2011@gmail.com> 1493276145 +0430	commit: Updated gitignore, completed functionality to add vocabularies
+27175648797ee6f45252ca1f9486d7d0ebdcabd0 c4cd8c1b49b58a6d3182be97cfb37d4ab7efcfde Amir Mehrabi <aut0run2011@gmail.com> 1493282975 +0430	commit: Created functionality to edit Vocabs
+c4cd8c1b49b58a6d3182be97cfb37d4ab7efcfde b0870f6db01e589439add7ce355d77585e42d97b Amir Mehrabi <aut0run2011@gmail.com> 1493447575 +0430	commit: Created a new admin panel
+b0870f6db01e589439add7ce355d77585e42d97b 74740bea5b46c4a682f0fec8d607c3c833fa9f3a Amir Mehrabi <aut0run2011@gmail.com> 1493467121 +0430	commit: Completed functionality to delete resources
+74740bea5b46c4a682f0fec8d607c3c833fa9f3a 4958b4c63c78a9791603704ffc6eb38f594f9cbb Amir Mehrabi <aut0run2011@gmail.com> 1493468073 +0430	commit: Created a post controller
+4958b4c63c78a9791603704ffc6eb38f594f9cbb 9da891a4d60ab3b09ec9bcc6b443c9d97dc6e726 Amir Mehrabi <aut0run2011@gmail.com> 1493468117 +0430	commit: Created admin views for posts section
+9da891a4d60ab3b09ec9bcc6b443c9d97dc6e726 d94c5024b8d8e290b796891857fc6e6bb538dd38 Amir Mehrabi <aut0run2011@gmail.com> 1493468237 +0430	commit: Created a route to post resource controller
+d94c5024b8d8e290b796891857fc6e6bb538dd38 3c2fadb8213f8f1ab58e2758a480c223af066d76 Amir Mehrabi <aut0run2011@gmail.com> 1493615496 +0430	commit: Fixed some minor issues
+3c2fadb8213f8f1ab58e2758a480c223af066d76 e38dbeb9fbd94922eb0fb51f45e28732103c9237 Amir Mehrabi <aut0run2011@gmail.com> 1493618188 +0430	commit: Migrated old admin views to adminLTE
+e38dbeb9fbd94922eb0fb51f45e28732103c9237 a7ae6e8035bb5cec66c0c6bca402932b65a4ff0e Amir Mehrabi <aut0run2011@gmail.com> 1493618860 +0430	commit: Removed a whole lot of extra styles from dozens of pages
+a7ae6e8035bb5cec66c0c6bca402932b65a4ff0e 3b6ab1a1e1036a5f9cc66c22ade4992a583ce922 Amir Mehrabi <aut0run2011@gmail.com> 1493624356 +0430	commit: Fixed some typos
+3b6ab1a1e1036a5f9cc66c22ade4992a583ce922 aff5a786e48e1035c7e77a90c8d8132110386743 Amir Mehrabi <aut0run2011@gmail.com> 1493627136 +0430	commit: Grid system is now full-width
+aff5a786e48e1035c7e77a90c8d8132110386743 ea5830379d496bad83a74fe02e3b1e398bd9d8b4 Amir Mehrabi <aut0run2011@gmail.com> 1494046681 +0430	commit: Don't remember what I did there
+ea5830379d496bad83a74fe02e3b1e398bd9d8b4 2ba08b6fe25922ab00ad179386d36c3263777474 Amir Mehrabi <aut0run2011@gmail.com> 1494046766 +0430	commit: Created a model and controller for Exams
+2ba08b6fe25922ab00ad179386d36c3263777474 b6c394b5fda74de21d082f00206d27240570fb46 Amir Mehrabi <aut0run2011@gmail.com> 1494049201 +0430	commit: Created a model and migration for Responses
+b6c394b5fda74de21d082f00206d27240570fb46 c6003725527fd92dd5c2f3f8cc19ccead144d739 Amir Mehrabi <aut0run2011@gmail.com> 1494168257 +0430	commit: Created a controller,proper model, and migrations
+c6003725527fd92dd5c2f3f8cc19ccead144d739 c5428dbcf2477547b547338102cd233a18663589 Amir Mehrabi <aut0run2011@gmail.com> 1494409097 +0430	commit: Made some minor changes
+c5428dbcf2477547b547338102cd233a18663589 9a360b27aac79eaa7c90e62533afaa2300ca7111 Amir Mehrabi <aut0run2011@gmail.com> 1494409258 +0430	commit: Made a model and migration for results table
+9a360b27aac79eaa7c90e62533afaa2300ca7111 b06ad0dacb7d8d82ec15056f78a57e39e2796848 Amir Mehrabi <aut0run2011@gmail.com> 1494410141 +0430	commit: Defined proper relations between results and courses, results and users
+b06ad0dacb7d8d82ec15056f78a57e39e2796848 298fa654cab09dcb1d9fae2581aa336518b7c973 Amir Mehrabi <aut0run2011@gmail.com> 1494479418 +0430	commit: Questions are now retrieved randomly in course exams
+298fa654cab09dcb1d9fae2581aa336518b7c973 e87626cf5804c88140326f2b881a2f15a0aec803 Amir Mehrabi <aut0run2011@gmail.com> 1494482411 +0430	commit: Deleted some crucial parts of project
+e87626cf5804c88140326f2b881a2f15a0aec803 ad60079cedfc6e00dbcbbcf7145b38f5fab37cc2 Amir Mehrabi <aut0run2011@gmail.com> 1494668930 +0430	commit: Created a migration to specify a required course for other courses.
+ad60079cedfc6e00dbcbbcf7145b38f5fab37cc2 dcf971c242e6748f9dc851976605f3eeb32720cb Amir Mehrabi <aut0run2011@gmail.com> 1494734633 +0430	commit: Fixed some minor issues in courses section
+dcf971c242e6748f9dc851976605f3eeb32720cb fd0da81186aa053813efa97ff1fb8f8054d38d20 Amir Mehrabi <aut0run2011@gmail.com> 1495521086 +0430	commit: Version 1 is almost ready with this commit
+fd0da81186aa053813efa97ff1fb8f8054d38d20 3361373ee481f050b2bc018990b5b487f3424397 Amir Mehrabi <aut0run2011@gmail.com> 1495607118 +0430	commit: We only show courses that doesn't have any
+3361373ee481f050b2bc018990b5b487f3424397 46675d7e5e7df5011b2856f36037dc6c10dcbff4 Amir Mehrabi <aut0run2011@gmail.com> 1495617039 +0430	commit: Unlocking lessons are now conditional on passing prerequisite lessons
+46675d7e5e7df5011b2856f36037dc6c10dcbff4 bee96ac20e4f4980e51ec0d1f19be945a59e4b84 Amir Mehrabi <aut0run2011@gmail.com> 1495619845 +0430	commit: Fixed some minor issues with exams
+bee96ac20e4f4980e51ec0d1f19be945a59e4b84 adc63515f7d68c943fa7e441bc4d4af827155101 Amir Mehrabi <aut0run2011@gmail.com> 1495858788 +0430	commit: Created a controller for users section
+adc63515f7d68c943fa7e441bc4d4af827155101 5ab6b2a45a264f4c00b2cf6b50adcbf49319dbff Amir Mehrabi <aut0run2011@gmail.com> 1495860804 +0430	commit: Created a view for user management section
+5ab6b2a45a264f4c00b2cf6b50adcbf49319dbff 8f80e17b598a9cc4d106e3d39b1efe06f17d16b9 Amir Mehrabi <aut0run2011@gmail.com> 1496033453 +0430	commit: Made some minor changes
+8f80e17b598a9cc4d106e3d39b1efe06f17d16b9 59ca37786aac3cdf2df005860f20ab8150b0ac12 Amir Mehrabi <aut0run2011@gmail.com> 1496033478 +0430	commit: Created a model and migration for payments
+59ca37786aac3cdf2df005860f20ab8150b0ac12 f44103feaf5beb7c98029fbad9a7f7309c42b27f Amir Mehrabi <aut0run2011@gmail.com> 1496117307 +0430	commit: Created a middleware for payments
+f44103feaf5beb7c98029fbad9a7f7309c42b27f 65b9d8cbc05eceaee12eaa3fb79adef3da1e405b Amir Mehrabi <aut0run2011@gmail.com> 1496214116 +0430	commit: Created a controller and proper views for payment
+65b9d8cbc05eceaee12eaa3fb79adef3da1e405b e68ec93560e704ce9bb2ab516544960a99f987a1 Amir Mehrabi <aut0run2011@gmail.com> 1496291727 +0430	commit: Added missed fields from lessons and courses table.
+e68ec93560e704ce9bb2ab516544960a99f987a1 172f7c6bdd6797a225d24cc22c267c6932e66c2d Amir Mehrabi <aut0run2011@gmail.com> 1496297744 +0430	commit: Added minimum required score to courses table
+172f7c6bdd6797a225d24cc22c267c6932e66c2d 77d2fab0f7d2e19a483494ee5c68355e9826193f Amir Mehrabi <aut0run2011@gmail.com> 1496297879 +0430	commit: Required score is now fetched from database;
+77d2fab0f7d2e19a483494ee5c68355e9826193f ed3fe03548c55046524a9e1f7049ba4f121a31a4 Amir Mehrabi <aut0run2011@gmail.com> 1496908304 +0430	commit: Migrated all the templates to the new template
+ed3fe03548c55046524a9e1f7049ba4f121a31a4 d8698889821667de2893bdb5b1a3ad6f99d9f066 Amir Mehrabi <aut0run2011@gmail.com> 1496910666 +0430	commit: Fixed a bug related to authorization
+d8698889821667de2893bdb5b1a3ad6f99d9f066 9365b0cde7eb8a52933dbc21e8cd5a81a491c5ca Amir Mehrabi <aut0run2011@gmail.com> 1496915106 +0430	commit: Fixed some minor issues in the project
+9365b0cde7eb8a52933dbc21e8cd5a81a491c5ca de72957a4cc184d421bf4b7b4dcc5493c6ee0d52 Amir Mehrabi <aut0run2011@gmail.com> 1497065721 +0430	commit: Lessons with prerequisite won't show in course page anymore
+de72957a4cc184d421bf4b7b4dcc5493c6ee0d52 c4aa3d7695ee64f7126f213f1499bbc06d6b2753 Amir Mehrabi <aut0run2011@gmail.com> 1497066024 +0430	commit: Fixed a minor issue with prerequisite lessons
+c4aa3d7695ee64f7126f213f1499bbc06d6b2753 ec5685f0aadcd1f43ebd8562343e7c63fe69440c Amir Mehrabi <aut0run2011@gmail.com> 1497068920 +0430	commit: Increased min_score required by lesson to pass the exam
+ec5685f0aadcd1f43ebd8562343e7c63fe69440c a521f11702431a9043f2a2ec5078e7e3de743fb1 Amir Mehrabi <aut0run2011@gmail.com> 1497073187 +0430	commit: Server-side validation errors are now showed in proper manner
+a521f11702431a9043f2a2ec5078e7e3de743fb1 d851af8b6a90ee88f58c62f0406f0f3018209dcf Amir Mehrabi <aut0run2011@gmail.com> 1497080693 +0430	commit: Made a view to create new user
+d851af8b6a90ee88f58c62f0406f0f3018209dcf c0e09c553d5493ba3827d5c9c941848eb9b05b2e Amir Mehrabi <aut0run2011@gmail.com> 1497082333 +0430	commit: Creating and updating users are now fully functional
+c0e09c553d5493ba3827d5c9c941848eb9b05b2e 306651f351cbcaca54e0a96ccf1486da15a3630d Amir Mehrabi <aut0run2011@gmail.com> 1497086393 +0430	commit: Version 1.0.0 is almost ready
+306651f351cbcaca54e0a96ccf1486da15a3630d 979eb7d02427a81bce6f750c6eab057f8d5cde59 Amir Mehrabi <aut0run2011@gmail.com> 1497088922 +0430	commit: installed laravel-user-activation package
+979eb7d02427a81bce6f750c6eab057f8d5cde59 7e1d0dc85faab53681d3473e8cd9aba621cc1bf9 Amir Mehrabi <aut0run2011@gmail.com> 1497088959 +0430	commit: Added its app service provider
+7e1d0dc85faab53681d3473e8cd9aba621cc1bf9 7998f33bc3de35e1b8864381a7265ad7d1f9eefd Amir Mehrabi <aut0run2011@gmail.com> 1497155972 +0430	commit: Translated all the necessary strings to persian
+7998f33bc3de35e1b8864381a7265ad7d1f9eefd b8f2ebe01dfe74d7d77a415bba400e6bc7db44e8 Amir Mehrabi <aut0run2011@gmail.com> 1497156276 +0430	commit: Fixed a minor bug in exams
+b8f2ebe01dfe74d7d77a415bba400e6bc7db44e8 e6610e99bc8770b77aad56fd9b300f722b181ff4 Amir Mehrabi <aut0run2011@gmail.com> 1497158166 +0430	commit: Fixed a minor issue in lesson exams
+e6610e99bc8770b77aad56fd9b300f722b181ff4 1e6e74a3585557398037c94e39756b9acdd4ee1e Amir Mehrabi <aut0run2011@gmail.com> 1497158789 +0430	commit: Translate login and register page
+1e6e74a3585557398037c94e39756b9acdd4ee1e 7aa7b26fba29eaa87eaaad144ea112216b8aac7b Amir Mehrabi <aut0run2011@gmail.com> 1497165270 +0430	commit: Translated some more strings
+7aa7b26fba29eaa87eaaad144ea112216b8aac7b 5e7337d584d253d58720b77180dbdc09aacb08bf Amir Mehrabi <aut0run2011@gmail.com> 1497165430 +0430	commit: Fixed some bugs in login page
+5e7337d584d253d58720b77180dbdc09aacb08bf 6cb574484267df0ec203dd8be23af923831704c4 Amir Mehrabi <aut0run2011@gmail.com> 1497167696 +0430	commit: Fixed a minor issue
+6cb574484267df0ec203dd8be23af923831704c4 893bee485cc3d3a43b9854652b39a1fef541addc Amir Mehrabi <aut0run2011@gmail.com> 1497168201 +0430	commit: Fixed a minor issue
+893bee485cc3d3a43b9854652b39a1fef541addc 719c42349dc99fc158fcd6e3cc7bd99784484ebb Amir Mehrabi <aut0run2011@gmail.com> 1497170117 +0430	commit: Fixed a typo
+719c42349dc99fc158fcd6e3cc7bd99784484ebb 86c5c7ad4a2cdcc00da43f315768873455da8d49 Amir Mehrabi <aut0run2011@gmail.com> 1497171273 +0430	commit: Hiddened some extra things
+86c5c7ad4a2cdcc00da43f315768873455da8d49 1bbb7af5f7b08e4659d0728513babfacd98d5f54 Amir Mehrabi <aut0run2011@gmail.com> 1497171335 +0430	commit: hiddened some extra things
+1bbb7af5f7b08e4659d0728513babfacd98d5f54 c3e1ff535373f685c12b93c4254cd9d7246542f9 Amir Mehrabi <aut0run2011@gmail.com> 1497171407 +0430	commit: fixed some margin issues
+c3e1ff535373f685c12b93c4254cd9d7246542f9 a38f63f70437b51a3dd44db0d1b0a56e52de4cee Amir Mehrabi <aut0run2011@gmail.com> 1497249032 +0430	commit: Added a "Cancel" button to management pages
+a38f63f70437b51a3dd44db0d1b0a56e52de4cee 05f86f5d7a3ddef396c0471d963d2fe96c4d7f6b Amir Mehrabi <aut0run2011@gmail.com> 1497259474 +0430	commit: Fixed an issue with active links of admin page
+05f86f5d7a3ddef396c0471d963d2fe96c4d7f6b d292384799e36173b8dbc4352cfce97a792ac686 Amir Mehrabi <aut0run2011@gmail.com> 1497259573 +0430	commit: Now admin is able to delete categories
+d292384799e36173b8dbc4352cfce97a792ac686 4f895d05cb19b03d907f861dceabdc405fc4c0cb Amir Mehrabi <aut0run2011@gmail.com> 1497259656 +0430	commit: Deleted duplicate flash messages in news section
+4f895d05cb19b03d907f861dceabdc405fc4c0cb 9fa0cae0c6ba757c3e86ce301422783bbbae271a Amir Mehrabi <aut0run2011@gmail.com> 1497259705 +0430	commit: Deleted duplicate flash messages in vocabs section
+9fa0cae0c6ba757c3e86ce301422783bbbae271a bd68839b79dc10b797b638f780b352cf83c21b2d Amir Mehrabi <aut0run2011@gmail.com> 1497329610 +0430	commit: Fixed title of forms
+bd68839b79dc10b797b638f780b352cf83c21b2d 6a81463a29e9242a753559aa9321fc1f4e3ac238 Amir Mehrabi <aut0run2011@gmail.com> 1497329730 +0430	commit: Fixed title of index pages
+6a81463a29e9242a753559aa9321fc1f4e3ac238 5b229cd9f9a922ec04d440b22cba9dc9f3419cb8 Amir Mehrabi <aut0run2011@gmail.com> 1497337275 +0430	commit: Created a model for footer pages and them groups
+5b229cd9f9a922ec04d440b22cba9dc9f3419cb8 b1d7651c196ac5a20f47dfa35f5601a96069398b Amir Mehrabi <aut0run2011@gmail.com> 1497338381 +0430	commit: Created a controller for pages
+b1d7651c196ac5a20f47dfa35f5601a96069398b e84acf78595d5cea168b16be16fbe066632bfed6 Amir Mehrabi <aut0run2011@gmail.com> 1497340219 +0430	commit: Created views for pages
+e84acf78595d5cea168b16be16fbe066632bfed6 161fb2bb4d9fd4f1495c14ca8b12e64a6a6c5103 Amir Mehrabi <aut0run2011@gmail.com> 1497340447 +0430	commit: Created some views for groups
+161fb2bb4d9fd4f1495c14ca8b12e64a6a6c5103 ebed8230f70b23724745bbb4057f27fed0daa1b6 Amir Mehrabi <aut0run2011@gmail.com> 1497340527 +0430	commit: Fixed wrong names in groups pages
+ebed8230f70b23724745bbb4057f27fed0daa1b6 760adc05bd531ec0c122046f89915ff169d197c0 Amir Mehrabi <aut0run2011@gmail.com> 1497340654 +0430	commit: Created a controller for groups
+760adc05bd531ec0c122046f89915ff169d197c0 63ea8ba361dae8b96f7b35dec6af4d8767848c0a Amir Mehrabi <aut0run2011@gmail.com> 1497340751 +0430	commit: Added proper namespaces to GroupController
+63ea8ba361dae8b96f7b35dec6af4d8767848c0a 9b58d153d2c517e99530f24c1d00ec402b7264b2 Amir Mehrabi <aut0run2011@gmail.com> 1497340785 +0430	commit: Added a constructor to GroupController
+9b58d153d2c517e99530f24c1d00ec402b7264b2 8b5ed9f01083e1964bb34f840e1984ef8f037e88 Amir Mehrabi <aut0run2011@gmail.com> 1497340832 +0430	commit: Created an index method in GroupController
+8b5ed9f01083e1964bb34f840e1984ef8f037e88 8e2aaec9d08848d682304b973799789de95060f2 Amir Mehrabi <aut0run2011@gmail.com> 1497340987 +0430	commit: Created a create function in GroupController
+8e2aaec9d08848d682304b973799789de95060f2 3646b07baf7bd480ac61ec8cc0b830484109c4da Amir Mehrabi <aut0run2011@gmail.com> 1497341588 +0430	commit: Created an store method for GroupController
+3646b07baf7bd480ac61ec8cc0b830484109c4da 5fe6aff3af76b3947732971c98a0bdb2969bc581 Amir Mehrabi <aut0run2011@gmail.com> 1497341729 +0430	commit: Created edit method for GroupController
+5fe6aff3af76b3947732971c98a0bdb2969bc581 86266348d5b0fd6bf09786d26280d3053be40269 Amir Mehrabi <aut0run2011@gmail.com> 1497341920 +0430	commit: Fixed validation bug on update in CategoryController
+86266348d5b0fd6bf09786d26280d3053be40269 1c89b76735f0b07cd46abe5230e6a5bc487ce58d Amir Mehrabi <aut0run2011@gmail.com> 1497342031 +0430	commit: Added a destroy method to PostController
+1c89b76735f0b07cd46abe5230e6a5bc487ce58d 380f923c12db7525950ddad1b24cbce446215ea0 Amir Mehrabi <aut0run2011@gmail.com> 1497342177 +0430	commit: Fixed a typo in categories form
+380f923c12db7525950ddad1b24cbce446215ea0 ae0e46343b14886f19ed6a78cfdad398de04c0b2 Amir Mehrabi <aut0run2011@gmail.com> 1497342291 +0430	commit: Fixed some typos
+ae0e46343b14886f19ed6a78cfdad398de04c0b2 529834351d5acec8e7a5c85fe486dfc479f2c298 Amir Mehrabi <aut0run2011@gmail.com> 1497343100 +0430	commit: Fixed some typos
+529834351d5acec8e7a5c85fe486dfc479f2c298 4add6573ed8d95b8ccf9e19560bfd635bb697c0f Amir Mehrabi <aut0run2011@gmail.com> 1497344756 +0430	commit: Changed redirect route after register
+4add6573ed8d95b8ccf9e19560bfd635bb697c0f a6929c2afadc6df7d5f772598f1be3e801172f11 Amir Mehrabi <aut0run2011@gmail.com> 1497345454 +0430	commit: Resized intro image
+a6929c2afadc6df7d5f772598f1be3e801172f11 f07e165abaf2c30c4273f0ba89a56aed6dda3871 Amir Mehrabi <aut0run2011@gmail.com> 1497345618 +0430	commit: Compressed placeholder image
+f07e165abaf2c30c4273f0ba89a56aed6dda3871 d40b329e6f818312e1a1a953645482e3768f998a Amir Mehrabi <aut0run2011@gmail.com> 1497345869 +0430	commit: Deleted "close" buttons in dashboard
+d40b329e6f818312e1a1a953645482e3768f998a 74886c69bf191e22013fad4985e2f1e7d75db209 Amir Mehrabi <aut0run2011@gmail.com> 1497347654 +0430	commit: Removed extra items from footer
+74886c69bf191e22013fad4985e2f1e7d75db209 590ab6f1e63e6a970b10d745d1dac9af4032c7f8 Amir Mehrabi <aut0run2011@gmail.com> 1497347991 +0430	commit: Fixed picture issue in pages and posts
+590ab6f1e63e6a970b10d745d1dac9af4032c7f8 adaff7ac99edea4ad24bfab6d147b65eab7abef1 Amir Mehrabi <aut0run2011@gmail.com> 1497420605 +0430	commit: I think I handled 404 errors pretty well.
+adaff7ac99edea4ad24bfab6d147b65eab7abef1 3627d3292331a7fc18955126a7ec68d5cadb169f Amir Mehrabi <aut0run2011@gmail.com> 1497425388 +0430	commit: Handled 404 errors even better than the last time
+3627d3292331a7fc18955126a7ec68d5cadb169f ed2fca1a8a5b41614073e400a76498cfa6fbc99b Amir Mehrabi <aut0run2011@gmail.com> 1497425416 +0430	commit: Fixed a typo
+ed2fca1a8a5b41614073e400a76498cfa6fbc99b 2858d80af2dc66edecd0451180eb818babd5d0ce Amir Mehrabi <aut0run2011@gmail.com> 1497428994 +0430	commit: Made news section sluggable
+2858d80af2dc66edecd0451180eb818babd5d0ce 4cc68386b9390d825dc0b15fed5ef90803883c69 Amir Mehrabi <aut0run2011@gmail.com> 1497429188 +0430	commit: Changed post body with post excerpt in home-page
+4cc68386b9390d825dc0b15fed5ef90803883c69 9d98039b3e90b3424511c66cec29e048abed9ed0 Amir Mehrabi <aut0run2011@gmail.com> 1497429359 +0430	commit: Added picture to stand-alone post of homepage
+9d98039b3e90b3424511c66cec29e048abed9ed0 cb230dac9de13d6363372af2b9e5750d98d4fa52 Amir Mehrabi <aut0run2011@gmail.com> 1497435668 +0430	commit: Backed to when it was safe and sound
+cb230dac9de13d6363372af2b9e5750d98d4fa52 06860c47a78bbcb274a079dcb0a77bf58d1b048c Amir Mehrabi <aut0run2011@gmail.com> 1497436089 +0430	commit: Changed position of "More" button in homepage
+06860c47a78bbcb274a079dcb0a77bf58d1b048c 8896051ca55ec433dd6c96d4a618cc15fc8bc654 Amir Mehrabi <aut0run2011@gmail.com> 1497510396 +0430	commit: Added htaccess to restrict access to videos and images
+8896051ca55ec433dd6c96d4a618cc15fc8bc654 3445df81a1f4120a05055d6df441b6a8d1d89beb Amir Mehrabi <aut0run2011@gmail.com> 1497510520 +0430	commit: Fixed wrong namespaces in lessons
+3445df81a1f4120a05055d6df441b6a8d1d89beb cc9ad5294bba6538110faa6fed053de50fefc4b1 Amir Mehrabi <aut0run2011@gmail.com> 1497513698 +0430	commit: Replaced our video player with a better one
+cc9ad5294bba6538110faa6fed053de50fefc4b1 cf7e00df783871a99f9da5a24084089c24068078 Amir Mehrabi <aut0run2011@gmail.com> 1497516713 +0430	commit: Removed specified height of video in courses
+cf7e00df783871a99f9da5a24084089c24068078 b4870f87c86585022833ac8726f1a68a9aea1cc9 Amir Mehrabi <aut0run2011@gmail.com> 1497694135 +0430	commit: Fixed some minor issues
+b4870f87c86585022833ac8726f1a68a9aea1cc9 912130daf1f87258569866da09dd2345e3727ef6 Amir Mehrabi <aut0run2011@gmail.com> 1497762470 +0430	commit: Added proper functionality to subscribe
+912130daf1f87258569866da09dd2345e3727ef6 1fe4468b2cb3f139457cd433f09aa3c167b3c818 Amir Mehrabi <aut0run2011@gmail.com> 1497762632 +0430	commit: Justified post section in homepage
+1fe4468b2cb3f139457cd433f09aa3c167b3c818 8ded8a62a13c797acc324d3659c4930e97f570fa Amir Mehrabi <aut0run2011@gmail.com> 1497764177 +0430	commit: Completed migrations with drop function
+8ded8a62a13c797acc324d3659c4930e97f570fa a85c9502f85270611770bcd67ae36d0c127e2e0c Amir Mehrabi <aut0run2011@gmail.com> 1497771192 +0430	commit: Posts now can be sorted
+a85c9502f85270611770bcd67ae36d0c127e2e0c 5b5ac6d4c8cb67af5f080015621474162cda5aaf Amir Mehrabi <aut0run2011@gmail.com> 1497774376 +0430	commit: Footer pages are now ready to be sorted
+5b5ac6d4c8cb67af5f080015621474162cda5aaf 8496db868ad240cf8ea373a36764bdbe375b2deb Amir Mehrabi <aut0run2011@gmail.com> 1497774450 +0430	commit: Created a migration for ordering courses
+8496db868ad240cf8ea373a36764bdbe375b2deb b09920519cd35f36691aebb3f581b5ff08ff25c5 Amir Mehrabi <aut0run2011@gmail.com> 1497774544 +0430	commit: Set course class to extends Baum instead of Model
+b09920519cd35f36691aebb3f581b5ff08ff25c5 92c2cf8fbf2a871e1c20a6c6543fb3a81edb3858 Amir Mehrabi <aut0run2011@gmail.com> 1497782408 +0430	commit: There's an error I should fix
+92c2cf8fbf2a871e1c20a6c6543fb3a81edb3858 ec323fef16b8773a6fcc2193ada60aaf11bfaff4 Amir Mehrabi <aut0run2011@gmail.com> 1497843016 +0430	commit: Changed height of homepage pics
+ec323fef16b8773a6fcc2193ada60aaf11bfaff4 cd8497783e18c3554c8862ce64662cc7614f4821 Amir Mehrabi <aut0run2011@gmail.com> 1497844426 +0430	commit: Every news now has an author
+cd8497783e18c3554c8862ce64662cc7614f4821 c6f7d1c974bd27ef7e00a58762dae998492cbbfe Amir Mehrabi <aut0run2011@gmail.com> 1497851269 +0430	commit: Made courses with prerequisite pretty beautiful
+c6f7d1c974bd27ef7e00a58762dae998492cbbfe 813a531eabee280e9de54f4ccc0e0c5b09ce5afc Amir Mehrabi <aut0run2011@gmail.com> 1497859407 +0430	commit: Hide extra options in admin panel's sidebar
+813a531eabee280e9de54f4ccc0e0c5b09ce5afc eb62a06f3d7ba581b02a4ca216cf065b88293ffd Amir Mehrabi <aut0run2011@gmail.com> 1497933320 +0430	commit: Made some minor changes
+eb62a06f3d7ba581b02a4ca216cf065b88293ffd b90b7c1e0a80d30ad21ad9333f84ab63a05b1444 Amir Mehrabi <aut0run2011@gmail.com> 1497933563 +0430	commit: Validate categories images in size and extention
+b90b7c1e0a80d30ad21ad9333f84ab63a05b1444 295392611c382a849db9077d4a108ba64879826b Amir Mehrabi <aut0run2011@gmail.com> 1497946650 +0430	commit: Added validation for images and videos.
+295392611c382a849db9077d4a108ba64879826b f5df91c331d799c5723b40868b8c3c947ab43bbe Amir Mehrabi <aut0run2011@gmail.com> 1497947138 +0430	commit: Removed extra lines of code from somewhere in template
+f5df91c331d799c5723b40868b8c3c947ab43bbe b42d78b541faf46b24a65d0a2d906d77e4bdce17 Amir Mehrabi <aut0run2011@gmail.com> 1497947285 +0430	commit: Cleaned some routes in name and content
+b42d78b541faf46b24a65d0a2d906d77e4bdce17 90f0d059d1dbdee44c8e596a181f563146596bd2 Amir Mehrabi <aut0run2011@gmail.com> 1498029908 +0430	commit: Cleaned some dirty pile of code
+90f0d059d1dbdee44c8e596a181f563146596bd2 6d0792e07611117c79181e76dfbf7f566b1b26b0 Amir Mehrabi <aut0run2011@gmail.com> 1498029940 +0430	commit: Cleaned some more codes
+6d0792e07611117c79181e76dfbf7f566b1b26b0 d7fe92ddb3a83489813d1751ca1a29ce68c5dab5 Amir Mehrabi <aut0run2011@gmail.com> 1498031005 +0430	commit: Spans are now showed correctly
+d7fe92ddb3a83489813d1751ca1a29ce68c5dab5 028bb6cac1a3a1d3a6d2c4ddd90d046693dbfd16 Amir Mehrabi <aut0run2011@gmail.com> 1498031071 +0430	commit: Set a min-width for "th"s
+028bb6cac1a3a1d3a6d2c4ddd90d046693dbfd16 c370e813efecc0e893f4eb86d463ba16a4908088 Amir Mehrabi <aut0run2011@gmail.com> 1498034899 +0430	commit: Added a title to posts
+c370e813efecc0e893f4eb86d463ba16a4908088 e2fe9511c585c93e2e14363d4b3839fe444c4d60 Amir Mehrabi <aut0run2011@gmail.com> 1498036279 +0430	commit: Changed skin of the admin page
+e2fe9511c585c93e2e14363d4b3839fe444c4d60 cdb05f06d60929b722ec885c82795828487998a0 Amir Mehrabi <aut0run2011@gmail.com> 1498108331 +0430	commit: Cleaned style of login and register page
+cdb05f06d60929b722ec885c82795828487998a0 45297aa215f8c1baba65d824bf6e80f562da3f9a Amir Mehrabi <aut0run2011@gmail.com> 1498115249 +0430	commit: Added an effect to home page icons
+45297aa215f8c1baba65d824bf6e80f562da3f9a 23424322fb135513a97e3e051788c9bfd68a0ba8 Amir Mehrabi <aut0run2011@gmail.com> 1498281741 +0430	commit: footer pages are now queried based on slug
+23424322fb135513a97e3e051788c9bfd68a0ba8 c3db1475641a19e85c9aa1d8bc19ac7800d957cf Amir Mehrabi <aut0run2011@gmail.com> 1498282011 +0430	commit: Build slug for categories based on category_name field
+c3db1475641a19e85c9aa1d8bc19ac7800d957cf 6d6f0ea67c34b7c0d3bdbda73ce81bb59037b1c9 Amir Mehrabi <aut0run2011@gmail.com> 1498282393 +0430	commit: Categories are now queried based on slugs
+6d6f0ea67c34b7c0d3bdbda73ce81bb59037b1c9 d36f54fc7e6db59dbaae3a3937051ccb34b4c6b1 Amir Mehrabi <aut0run2011@gmail.com> 1498282529 +0430	commit: Proper migration to add slug to courses
+d36f54fc7e6db59dbaae3a3937051ccb34b4c6b1 76bbb63db9413742b612545e703bf1274c13f225 Amir Mehrabi <aut0run2011@gmail.com> 1498282594 +0430	commit: Added necessary logic to the migration
+76bbb63db9413742b612545e703bf1274c13f225 d4bf3d22803aea741aefbc82ed947c27f3719e89 Amir Mehrabi <aut0run2011@gmail.com> 1498282654 +0430	commit: Course model is now sluggable
+d4bf3d22803aea741aefbc82ed947c27f3719e89 0566038b4f5955e0cec450d631ed78a78b57b0eb Amir Mehrabi <aut0run2011@gmail.com> 1498283114 +0430	commit: Added bootstrap 4 paginator support to project
+0566038b4f5955e0cec450d631ed78a78b57b0eb de7c77e87902d002584fb8224a8f716fce8404a8 Amir Mehrabi <aut0run2011@gmail.com> 1498283800 +0430	commit: Added ability to specify a minimum course percentage
+de7c77e87902d002584fb8224a8f716fce8404a8 0cc146ac5d4f939f88402c84665ce73c03839b70 Amir Mehrabi <aut0run2011@gmail.com> 1498283948 +0430	commit: Added slug migration for lessons
+0cc146ac5d4f939f88402c84665ce73c03839b70 af58455b9def6b6275e372190f67f11e30823d42 Amir Mehrabi <aut0run2011@gmail.com> 1498284012 +0430	commit: Lesson model is now sluggable
+af58455b9def6b6275e372190f67f11e30823d42 e89687a3df72678dfaa94e25c42e2b4d904c9ca4 Amir Mehrabi <aut0run2011@gmail.com> 1498285090 +0430	commit: All edited lessons would become substances of the
+e89687a3df72678dfaa94e25c42e2b4d904c9ca4 b373c976e53469de4292623fc258fba37e77d06d Amir Mehrabi <aut0run2011@gmail.com> 1498285475 +0430	commit: Lessons and lesson exams are now queried based on slug
+b373c976e53469de4292623fc258fba37e77d06d 3da5316035371106402d3b90e256b8dfc39f4dfa Amir Mehrabi <aut0run2011@gmail.com> 1498286188 +0430	commit: Fixed some minor issues
+3da5316035371106402d3b90e256b8dfc39f4dfa 4dac49bc276211392719cfe9121880bc75b6622b Amir Mehrabi <aut0run2011@gmail.com> 1498293145 +0430	commit: We're showing proper date in posts and pages
+4dac49bc276211392719cfe9121880bc75b6622b a970068153a7f058fcf0214f4725701c0eb70fa5 Amir Mehrabi <aut0run2011@gmail.com> 1498376095 +0430	commit: Fixed some minor issues
+a970068153a7f058fcf0214f4725701c0eb70fa5 3974c40154ecf38d8b4afeafdea22bbf8074998d Amir Mehrabi <aut0run2011@gmail.com> 1498378785 +0430	commit: Fixed an issue with categories
+3974c40154ecf38d8b4afeafdea22bbf8074998d a7168c214d68d4aeb2b64725dc4c37c2edf170ff Amir Mehrabi <aut0run2011@gmail.com> 1498379177 +0430	commit: fixed a minor issue with categories
+a7168c214d68d4aeb2b64725dc4c37c2edf170ff 643ce891042b88dadbed4e3d8a3ab2c9ff6e8872 Amir Mehrabi <aut0run2011@gmail.com> 1498379699 +0430	commit: Added a style to vocab cat page when it's empty
+643ce891042b88dadbed4e3d8a3ab2c9ff6e8872 264116ea48f8637dd1c3d7e91a3bd4550b31f2bf Amir Mehrabi <aut0run2011@gmail.com> 1498379733 +0430	commit: Fixed a typo
+264116ea48f8637dd1c3d7e91a3bd4550b31f2bf 9725f15cd27d1a6a9146ba584e1f4307eb4e2542 Amir Mehrabi <aut0run2011@gmail.com> 1498380322 +0430	commit: Fetch courses with slug
+9725f15cd27d1a6a9146ba584e1f4307eb4e2542 1fd7f919d2c756abfd0860f35b9802ec1af6d2d6 Amir Mehrabi <aut0run2011@gmail.com> 1498381402 +0430	commit: Course images wouldn't load in admin page. Fixed it.
+1fd7f919d2c756abfd0860f35b9802ec1af6d2d6 1672c6bec4f7567febab567349188e372569eac5 Amir Mehrabi <aut0run2011@gmail.com> 1498382329 +0430	commit: Linked logo to homepage
+1672c6bec4f7567febab567349188e372569eac5 8a510dbef22b8e746e85804818642c88167dc0ec Amir Mehrabi <aut0run2011@gmail.com> 1498383629 +0430	commit: Hiddened intro sections
+8a510dbef22b8e746e85804818642c88167dc0ec 3e43bf0b7852b8150a8976af006e74a4eee523d4 Amir Mehrabi <aut0run2011@gmail.com> 1498632288 +0430	commit: Catch prerequisite course by slug in course page
+3e43bf0b7852b8150a8976af006e74a4eee523d4 d41773caa7c7e73616e527cf01c3f76adf501618 Amir Mehrabi <aut0run2011@gmail.com> 1498632555 +0430	commit: Fixed some typos
+d41773caa7c7e73616e527cf01c3f76adf501618 3c2425069f0e43b5d066ce4dda824d29c9b94654 Amir Mehrabi <aut0run2011@gmail.com> 1498632612 +0430	commit: Fixed a typo
+3c2425069f0e43b5d066ce4dda824d29c9b94654 5b40d0e9d178fb35f2bdc5038d64312057db2776 Amir Mehrabi <aut0run2011@gmail.com> 1498632664 +0430	commit: Fixed another typo
+5b40d0e9d178fb35f2bdc5038d64312057db2776 86e48b9fbdcb04390f9ba21484eb7528171d98e6 Amir Mehrabi <aut0run2011@gmail.com> 1498645712 +0430	commit: Fixed a wrong link
+86e48b9fbdcb04390f9ba21484eb7528171d98e6 4d20178e45e70b29ac2741b7d5efaaf3c4b0fc9d Amir Mehrabi <aut0run2011@gmail.com> 1498712199 +0430	commit: Added email to email admin section
+4d20178e45e70b29ac2741b7d5efaaf3c4b0fc9d a8b131b977eb486d0f1ea23804741ffb175a7a31 Amir Mehrabi <aut0run2011@gmail.com> 1498881988 +0430	commit: Installed laravel-plupload
+a8b131b977eb486d0f1ea23804741ffb175a7a31 49659c242bb2bcd58399a64917a230c206e078c5 Amir Mehrabi <aut0run2011@gmail.com> 1498882023 +0430	commit: Added provider and alias
+49659c242bb2bcd58399a64917a230c206e078c5 eade8040626d09f4b772c87dafbda651e3138621 Amir Mehrabi <aut0run2011@gmail.com> 1498882038 +0430	commit: Pulished vendor
+eade8040626d09f4b772c87dafbda651e3138621 70eea82784222e137f493b97b87e3c1546985235 Amir Mehrabi <aut0run2011@gmail.com> 1499059210 +0430	commit: Ready to install gateway package
+70eea82784222e137f493b97b87e3c1546985235 5b4365ddd185ef14d65dabd6c082ceb52253106e Amir Mehrabi <aut0run2011@gmail.com> 1499059430 +0430	commit: Installed larabook/gateway
+5b4365ddd185ef14d65dabd6c082ceb52253106e 435f65240c422eb4c38a88ec3339a85480444b72 Amir Mehrabi <aut0run2011@gmail.com> 1499059458 +0430	commit: Added gateway provider
+435f65240c422eb4c38a88ec3339a85480444b72 3391ece639984356df3d999f501fccd524008455 Amir Mehrabi <aut0run2011@gmail.com> 1499059475 +0430	commit: Added Gateway facade
+3391ece639984356df3d999f501fccd524008455 9b4777db41685663610c4b84b7b38fbcec4bb8a4 Amir Mehrabi <aut0run2011@gmail.com> 1499059507 +0430	commit: Published gateway providers
+9b4777db41685663610c4b84b7b38fbcec4bb8a4 53025bbd19027d73bf920330a30fa93bce863b55 Amir Mehrabi <aut0run2011@gmail.com> 1499061233 +0430	commit: ZARINPAL payment now works fine
+53025bbd19027d73bf920330a30fa93bce863b55 16fe6d69fd9660182b6af5e99cdf53a5b9bdbe10 Amir Mehrabi <aut0run2011@gmail.com> 1499062299 +0430	commit: Added a test payment route
+16fe6d69fd9660182b6af5e99cdf53a5b9bdbe10 e5ca74b70ca842ccb80e6f798086414c73223c60 Amir Mehrabi <aut0run2011@gmail.com> 1499062534 +0430	commit: Completed callback route;
+e5ca74b70ca842ccb80e6f798086414c73223c60 6557164b278425f97ec941e7cd7e83df1b09dd41 Amir Mehrabi <aut0run2011@gmail.com> 1499241036 +0430	commit: Changes gateway to mellat
+6557164b278425f97ec941e7cd7e83df1b09dd41 e865609bcef4e9d54ed47bd8a7eb074477d7f309 Amir Mehrabi <aut0run2011@gmail.com> 1499241222 +0430	commit: Fixed password
+e865609bcef4e9d54ed47bd8a7eb074477d7f309 823bf586f023ce280c1936612216a1b866215e53 Amir Mehrabi <aut0run2011@gmail.com> 1499242142 +0430	commit: Some changes
+823bf586f023ce280c1936612216a1b866215e53 f2b28205ac1b540a693b3d87074c09dfba1f82be Amir Mehrabi <aut0run2011@gmail.com> 1499242905 +0430	commit: some changes
+f2b28205ac1b540a693b3d87074c09dfba1f82be 5c156ac63dc94315faf6544a6b73ccfa6a08becd Amir Mehrabi <aut0run2011@gmail.com> 1499243027 +0430	commit: Fixed a bug
+5c156ac63dc94315faf6544a6b73ccfa6a08becd 6edabfa18eb997cbb60c95896acab0758873821d Amir Mehrabi <aut0run2011@gmail.com> 1499324159 +0430	commit: changed verify to settle
+6edabfa18eb997cbb60c95896acab0758873821d 328ab3eda36b7d8aceef9914677af31d3c3f57fe Amir Mehrabi <aut0run2011@gmail.com> 1499324511 +0430	commit: changes some things
+328ab3eda36b7d8aceef9914677af31d3c3f57fe 852306234b2ac5137d894902029ee128391c89bd Amir Mehrabi <aut0run2011@gmail.com> 1499668903 +0430	commit: some changes in payment gateway
+852306234b2ac5137d894902029ee128391c89bd 7762b05f272aa7225609b89a63fe2d32d914e0b7 Amir Mehrabi <aut0run2011@gmail.com> 1499669976 +0430	commit: Fixed a bug
+7762b05f272aa7225609b89a63fe2d32d914e0b7 3706bcbac3a8d24ac831c2d03bfb1250db35ab18 Amir Mehrabi <aut0run2011@gmail.com> 1499670170 +0430	commit: fixed a bug
+3706bcbac3a8d24ac831c2d03bfb1250db35ab18 dd1c4196c2594241a21f54483b1562521770fc8d Amir Mehrabi <aut0run2011@gmail.com> 1499674291 +0430	commit: fixed a bug
+dd1c4196c2594241a21f54483b1562521770fc8d 4d4ee4b6b5b331fd099064b01d082da7724e2a42 Amir Mehrabi <aut0run2011@gmail.com> 1499674600 +0430	commit: fixed another bug
+4d4ee4b6b5b331fd099064b01d082da7724e2a42 ac6ddc2d33fa0f31cf7d92e89e08a7243e23db48 Amir Mehrabi <aut0run2011@gmail.com> 1499674868 +0430	commit: fixed another bug
+ac6ddc2d33fa0f31cf7d92e89e08a7243e23db48 c0c92a39cbdf13d2de73f5f066cbcabf2cb7ed12 Amir Mehrabi <aut0run2011@gmail.com> 1499674923 +0430	commit: moved where clause to its own place
+c0c92a39cbdf13d2de73f5f066cbcabf2cb7ed12 78b9fd2861cd7a9220c998cc2d883a52ff23170c Amir Mehrabi <aut0run2011@gmail.com> 1499675199 +0430	commit: Completed gateway transactions
+78b9fd2861cd7a9220c998cc2d883a52ff23170c 0c82ce6ace5fdad41eaa994a11a656e6214cdd44 Amir Mehrabi <aut0run2011@gmail.com> 1499680302 +0430	commit: Made some changes
+0c82ce6ace5fdad41eaa994a11a656e6214cdd44 36cedca1f596996c50ef0b12e93b4a6470c85c63 Amir Mehrabi <aut0run2011@gmail.com> 1499680428 +0430	commit: Added a TransactionController
+36cedca1f596996c50ef0b12e93b4a6470c85c63 76cdbbedcc51651f62152acda03dd580dc89e7ad Amir Mehrabi <aut0run2011@gmail.com> 1499680514 +0430	commit: Added views for transactions
+76cdbbedcc51651f62152acda03dd580dc89e7ad fc3e22f8ccd744fba26c2bba2df00365e2c5e8dc Amir Mehrabi <aut0run2011@gmail.com> 1499682585 +0430	commit: Added transactions to admin menu
+fc3e22f8ccd744fba26c2bba2df00365e2c5e8dc ed80ec4581b856b0339c1c8a805b06a21e1dcaee Amir Mehrabi <aut0run2011@gmail.com> 1499920305 +0430	commit: Created a controller for subscription fees
+ed80ec4581b856b0339c1c8a805b06a21e1dcaee 4408ce4b3859fcd1a539fe5ee79a1e78371576d7 Amir Mehrabi <aut0run2011@gmail.com> 1499921217 +0430	commit: Added a model and migration for subscription fees
+4408ce4b3859fcd1a539fe5ee79a1e78371576d7 d583998e79806e30d2e0dc4f2459acd32a897f16 Amir Mehrabi <aut0run2011@gmail.com> 1499921664 +0430	commit: Managed to secure subscription purchases.
+d583998e79806e30d2e0dc4f2459acd32a897f16 32995409ebc940f5a820640612256c6f4c4bb87b Amir Mehrabi <aut0run2011@gmail.com> 1499921801 +0430	commit: Cleaned some code.
+32995409ebc940f5a820640612256c6f4c4bb87b 3e2f037148814cf14a15f406cc3013b6e11124d7 Amir Mehrabi <aut0run2011@gmail.com> 1499925211 +0430	commit: Added proper views for transaction fees in admin section
+3e2f037148814cf14a15f406cc3013b6e11124d7 06fbd706bdab84122f5852b5e9264372e0191499 Amir Mehrabi <aut0run2011@gmail.com> 1499925670 +0430	commit: Completed index section of subscriptions in admin page
+06fbd706bdab84122f5852b5e9264372e0191499 c3674963bc9f2db9d34076f231d6cecdf5b36377 Amir Mehrabi <aut0run2011@gmail.com> 1499926744 +0430	commit: Added validation to creation of subscription fee
+c3674963bc9f2db9d34076f231d6cecdf5b36377 e5e8fa883f48245a1ed4f2e77165118b54b0c5ee Amir Mehrabi <aut0run2011@gmail.com> 1499928632 +0430	commit: Added validation to update method in SubscriptionController
+e5e8fa883f48245a1ed4f2e77165118b54b0c5ee 6e32eb1a14f911dc4fea29959f6f24c27a816313 Amir Mehrabi <aut0run2011@gmail.com> 1499930677 +0430	commit: Added a delete method to controller
+6e32eb1a14f911dc4fea29959f6f24c27a816313 eea8dc33ee138ac75a22c4fadacdb2ac09da193d Amir Mehrabi <aut0run2011@gmail.com> 1499936124 +0430	commit: test something
+eea8dc33ee138ac75a22c4fadacdb2ac09da193d 57d242017f73a205049425390218dd4fc5f73e62 Amir Mehrabi <aut0run2011@gmail.com> 1500096608 +0430	commit: managing courses and categories are now done from a single place
+57d242017f73a205049425390218dd4fc5f73e62 100b3e9b150701dab780b67d90c0eba1b8178a0e Amir Mehrabi <aut0run2011@gmail.com> 1500099257 +0430	commit: Made some improvements
+100b3e9b150701dab780b67d90c0eba1b8178a0e e1f556351fa592e51645752ef912692a07a32666 Amir Mehrabi <aut0run2011@gmail.com> 1500353869 +0430	commit: Added search to transactions
+e1f556351fa592e51645752ef912692a07a32666 6a730e63fc1ec45bcf8310dc0d925240a87b2b58 Amir Mehrabi <aut0run2011@gmail.com> 1500355112 +0430	commit: Fixed a typo
+6a730e63fc1ec45bcf8310dc0d925240a87b2b58 268283e25d9a295f6ec67aec5405e2e3b4fc44c8 Amir Mehrabi <aut0run2011@gmail.com> 1500355311 +0430	commit: Fixed a typo
+268283e25d9a295f6ec67aec5405e2e3b4fc44c8 35a5e4b84874df2d8407ec5bfca609d95fe60159 Amir Mehrabi <aut0run2011@gmail.com> 1500356782 +0430	commit: fixed a bug
+35a5e4b84874df2d8407ec5bfca609d95fe60159 7239a3a8d376729b53234f48115d11dffbd36cc0 Amir Mehrabi <aut0run2011@gmail.com> 1500357376 +0430	commit: Added text-align buttons to editor
+7239a3a8d376729b53234f48115d11dffbd36cc0 87b078358a57993683f0cc9ccb3c3a62dddbb6d2 Amir Mehrabi <aut0run2011@gmail.com> 1500357519 +0430	commit: fixed a minor issue
+87b078358a57993683f0cc9ccb3c3a62dddbb6d2 f5c7e4b19b17b9f6e684dfcefe39cda3702bb51e Amir Mehrabi <aut0run2011@gmail.com> 1500359009 +0430	commit: Added subscription fee management to admin panel
+f5c7e4b19b17b9f6e684dfcefe39cda3702bb51e 68113142c5f7101afb1b54b0f68542317eb8e4b5 Amir Mehrabi <aut0run2011@gmail.com> 1500785648 +0430	commit: Changed name of the institution
+68113142c5f7101afb1b54b0f68542317eb8e4b5 071ac3b62a34d85dad11a6c903ad0b93eb0e0853 Amir Mehrabi <aut0run2011@gmail.com> 1500786030 +0430	commit: Fixed wrong display of date in news page
+071ac3b62a34d85dad11a6c903ad0b93eb0e0853 3cdf8f9d51fda19da83325a80ef23c586f92e7cd Amir Mehrabi <aut0run2011@gmail.com> 1500800887 +0430	commit: Added a slider to the project
+3cdf8f9d51fda19da83325a80ef23c586f92e7cd 58da4de1b97796ad54343fbc5423eaeff199bf8d Amir Mehrabi <aut0run2011@gmail.com> 1501045462 +0430	commit: Added migration for question picture and audio
+58da4de1b97796ad54343fbc5423eaeff199bf8d 4ac8be1ff593428843eb2a2c79908c7b82ba3bbd Amir Mehrabi <aut0run2011@gmail.com> 1501052012 +0430	commit: Added a controller for settings
+4ac8be1ff593428843eb2a2c79908c7b82ba3bbd 92ad6a968e1187d594d572275f02eb15e4479412 Amir Mehrabi <aut0run2011@gmail.com> 1501052179 +0430	commit: Added a model and migration for settings
+92ad6a968e1187d594d572275f02eb15e4479412 dc8e4519a09e860b368c2f35cef5f844953ab29a Amir Mehrabi <aut0run2011@gmail.com> 1501053319 +0430	commit: added proper views for setting
+dc8e4519a09e860b368c2f35cef5f844953ab29a 01db70bbdcb0cdf56c9aea51996c1001d362d5ce Amir Mehrabi <aut0run2011@gmail.com> 1501063429 +0430	commit: Made some minor changes
+01db70bbdcb0cdf56c9aea51996c1001d362d5ce 64ca4cac6496c65a5f591eaabcd11415f9fbf097 Amir Mehrabi <aut0run2011@gmail.com> 1502013748 +0430	commit: Fixed a typo
+64ca4cac6496c65a5f591eaabcd11415f9fbf097 72cb04b5c4cea2f70976e13e38eaba2f36abcbcc Amir Mehrabi <aut0run2011@gmail.com> 1502013834 +0430	commit: Removed error
+72cb04b5c4cea2f70976e13e38eaba2f36abcbcc f026aa939344d5548ad9ba54062b96efc3471fd9 Amir Mehrabi <aut0run2011@gmail.com> 1502013981 +0430	commit: Test video player
+f026aa939344d5548ad9ba54062b96efc3471fd9 c2cea0f2dc5e6294b0da241dd10b73669c601d6f Amir Mehrabi <aut0run2011@gmail.com> 1502014937 +0430	commit: Fixed video display
+c2cea0f2dc5e6294b0da241dd10b73669c601d6f c2d8686e15e5a56d5b8ed4056b3e78935ed86db9 Amir Mehrabi <aut0run2011@gmail.com> 1502096819 +0430	commit: Fixed wrong size of video
+c2d8686e15e5a56d5b8ed4056b3e78935ed86db9 9e19edbf90eeee2c4c2cc491c1df721428d68a3f Amir Mehrabi <aut0run2011@gmail.com> 1502096953 +0430	commit: Added webm support
+9e19edbf90eeee2c4c2cc491c1df721428d68a3f 0667aa24642c3e4a95b5e5444aaa344be81b039c Amir Mehrabi <aut0run2011@gmail.com> 1502184327 +0430	commit: Fixed some bugs
+0667aa24642c3e4a95b5e5444aaa344be81b039c bb2b31f03e8a8f9329a99a0495ca26b0c594e380 Amir Mehrabi <aut0run2011@gmail.com> 1502257187 +0430	commit: Disabled download from videos
+bb2b31f03e8a8f9329a99a0495ca26b0c594e380 e4d4dfd3f8a0017cb9551be96830788491b1f169 Amir Mehrabi <aut0run2011@gmail.com> 1502268974 +0430	commit: Ordering courses are now working fine
+e4d4dfd3f8a0017cb9551be96830788491b1f169 499ab19115cadc8d1d2aff62894685ad8353394a Amir Mehrabi <aut0run2011@gmail.com> 1502954211 +0430	commit: Created a faq page.
+499ab19115cadc8d1d2aff62894685ad8353394a 4d06fb1919c146d2aa63ef5b2b875e29788d6930 Amir Mehrabi <aut0run2011@gmail.com> 1502955434 +0430	commit: Made vocab images expandable by lightbox
+4d06fb1919c146d2aa63ef5b2b875e29788d6930 e8b1ad1cd80509d9aef6ecac898766667e1661aa Amir Mehrabi <aut0run2011@gmail.com> 1503208009 +0430	commit: Made some changes
+e8b1ad1cd80509d9aef6ecac898766667e1661aa 03b2fec681bf651364c3403f21d0d38ff9a1901f Amir Mehrabi <aut0run2011@gmail.com> 1503289549 +0430	commit: added enamad to the footer
+03b2fec681bf651364c3403f21d0d38ff9a1901f 329571139c6cf526e956c5e14057fc3bc04275bb Amir Mehrabi <aut0run2011@gmail.com> 1503289778 +0430	commit: fixed an issue
+329571139c6cf526e956c5e14057fc3bc04275bb b2004b8a191c5b2a8aaa0a07fe4c18339076c734 Amir Mehrabi <aut0run2011@gmail.com> 1503292167 +0430	commit: Made some changes
+b2004b8a191c5b2a8aaa0a07fe4c18339076c734 9406883a6b43398380871f6c23fd2043652554ca Amir Mehrabi <aut0run2011@gmail.com> 1503299218 +0430	commit: Added logo to the site
+9406883a6b43398380871f6c23fd2043652554ca 6b069125bebf7109841d09fd980e28090ce2d2f4 Amir Mehrabi <aut0run2011@gmail.com> 1503741427 +0430	commit: Made some bug fixes
+6b069125bebf7109841d09fd980e28090ce2d2f4 b2e5a13d646b9545fc0baeb7e82d277b7ed08592 Amir Mehrabi <aut0run2011@gmail.com> 1503743756 +0430	commit: Added reports of whom scored the most in exams
+b2e5a13d646b9545fc0baeb7e82d277b7ed08592 04580c2136b828bfdc68bb84eeda3d5a8db1d9f5 Amir Mehrabi <aut0run2011@gmail.com> 1503821388 +0430	commit: Updated faq page
+04580c2136b828bfdc68bb84eeda3d5a8db1d9f5 1ea8de2662dc009a28c0df2d5e949a3a3d938f08 Amir Mehrabi <aut0run2011@gmail.com> 1503821443 +0430	commit: Made some minor changes
+1ea8de2662dc009a28c0df2d5e949a3a3d938f08 3752539f79d3a8f286721a0b8d458e534abebb91 Amir Mehrabi <aut0run2011@gmail.com> 1503821521 +0430	commit: Made some changes, again.
+3752539f79d3a8f286721a0b8d458e534abebb91 88cde727cb57dc8b4003195d1e0da4691dcee078 Amir Mehrabi <aut0run2011@gmail.com> 1503821885 +0430	commit: Made report charts readonly
+88cde727cb57dc8b4003195d1e0da4691dcee078 947826d7c48a987ebdb67955d095ce87d7452188 Amir Mehrabi <aut0run2011@gmail.com> 1504518863 +0430	commit: Made some changes
+947826d7c48a987ebdb67955d095ce87d7452188 7d1a38fa8703ca404bc84d2f4f4d5e52a9639fec Amir Mehrabi <aut0run2011@gmail.com> 1504519084 +0430	commit: added order columns
+7d1a38fa8703ca404bc84d2f4f4d5e52a9639fec a2ec17032360125a651c3f8b90dac91a8b426751 Amir Mehrabi <aut0run2011@gmail.com> 1505018503 +0430	commit: minor bug fixes
+a2ec17032360125a651c3f8b90dac91a8b426751 a1bff105aed4268126cd89f05d7d6a5e9730ba05 Amir Mehrabi <aut0run2011@gmail.com> 1505295701 +0430	commit: made a minor change
+a1bff105aed4268126cd89f05d7d6a5e9730ba05 bb83fdc0f0534d794c9c992c7efda88dc0b06b84 Amir Mehrabi <aut0run2011@gmail.com> 1512371350 +0330	commit: Show homepage even if there's no post
+bb83fdc0f0534d794c9c992c7efda88dc0b06b84 bf8f85601f60b2efc255c452fcc2af1588520a67 Amir Mehrabi <aut0run2011@gmail.com> 1512371393 +0330	commit: Show homepage even if there's no category
+bf8f85601f60b2efc255c452fcc2af1588520a67 f7451aeeb2baf054f3257e2db7c18e2a879fa907 Amir Mehrabi <aut0run2011@gmail.com> 1512639686 +0330	commit: installed stats tracker and added subscription to categories
+f7451aeeb2baf054f3257e2db7c18e2a879fa907 716de0a9130f76bfc42e8da42a5e15f70277460d Amir Mehrabi <aut0run2011@gmail.com> 1513657860 +0330	commit: Final commit
+716de0a9130f76bfc42e8da42a5e15f70277460d 1e1bd73e0a0b209e6ab7a0d5d865abf9ef39fddc Amir Mehrabi <aut0run2011@gmail.com> 1513659140 +0330	commit: Changed course id with course slug
+1e1bd73e0a0b209e6ab7a0d5d865abf9ef39fddc 93bff14afab32728cf8aa265cd52931ecf87a7c7 Amir Mehrabi <aut0run2011@gmail.com> 1514091271 +0330	commit: changed mellat gateway
+93bff14afab32728cf8aa265cd52931ecf87a7c7 eeaef20b344f8d5402cc3632788ff4a23cc93b3c Amir Mehrabi <aut0run2011@gmail.com> 1514091447 +0330	commit: Updated faq page
+eeaef20b344f8d5402cc3632788ff4a23cc93b3c 1981dd15f81592edcc9755afe136f7dbb8ebdea5 Amir Mehrabi <aut0run2011@gmail.com> 1514091692 +0330	commit: Fixed a minor bug
+1981dd15f81592edcc9755afe136f7dbb8ebdea5 6b19bf76f9a0a1711f0376af68b9052633318bac Amir Mehrabi <aut0run2011@gmail.com> 1514092563 +0330	commit: links updated
+6b19bf76f9a0a1711f0376af68b9052633318bac 13235eb8162478627e6ab18b3dcb1a5f02fe8203 Amir Mehrabi <aut0run2011@gmail.com> 1514699582 +0330	commit: stats completed
+13235eb8162478627e6ab18b3dcb1a5f02fe8203 f8f2bbfc8ee00ff0911c70d460a749a9022c2326 Amir Mehrabi <aut0run2011@gmail.com> 1514705984 +0330	commit: Priorotizing test
+f8f2bbfc8ee00ff0911c70d460a749a9022c2326 df7b41712df4f91871bbe296cc83154bae9424e1 Amir Mehrabi <aut0run2011@gmail.com> 1514717956 +0330	commit: Deployed all changes
+df7b41712df4f91871bbe296cc83154bae9424e1 d43d1c2316a8a9b0f4e300ed92a0c5fa2cfeec2f Amir Mehrabi <aut0run2011@gmail.com> 1514718601 +0330	commit: changed routes
+d43d1c2316a8a9b0f4e300ed92a0c5fa2cfeec2f 8f85bf0e8d335ff8baf5bb59d8fc863f04742b95 Amir Mehrabi <aut0run2011@gmail.com> 1514790731 +0330	commit: fixed broken search link
+8f85bf0e8d335ff8baf5bb59d8fc863f04742b95 32360942761c05ca8a2fe82d88ce44993f692caf Amir Mehrabi <aut0run2011@gmail.com> 1514791666 +0330	commit: fixed a bug
+32360942761c05ca8a2fe82d88ce44993f692caf 3acc2429819b5c7b9fa96ff4fd3723df97937e93 Amir Mehrabi <aut0run2011@gmail.com> 1514791751 +0330	commit: fixed a bug
+3acc2429819b5c7b9fa96ff4fd3723df97937e93 0f0f5d7cb3e175ddb61b851e16600e830981ea78 Amir Mehrabi <aut0run2011@gmail.com> 1514791799 +0330	commit: fixed a bug
+0f0f5d7cb3e175ddb61b851e16600e830981ea78 ec84ea48834187c3f32237f07347d80c5ac0763e Amir Mehrabi <aut0run2011@gmail.com> 1514791866 +0330	commit: fixed a bug
+ec84ea48834187c3f32237f07347d80c5ac0763e 95dd685fcdceb6dd8986707e53233d4dadf84808 Amir Mehrabi <aut0run2011@gmail.com> 1514791898 +0330	commit: fixed a bug
+95dd685fcdceb6dd8986707e53233d4dadf84808 4e17293ca271d40b35543c2625df4f0f757ce9ad Amir Mehrabi <aut0run2011@gmail.com> 1514791960 +0330	commit: test
+4e17293ca271d40b35543c2625df4f0f757ce9ad cf0ab4cc7a0d7207d628bf738423fc7e242359f2 Amir Mehrabi <aut0run2011@gmail.com> 1514792068 +0330	commit: Fixed a bug finally
+cf0ab4cc7a0d7207d628bf738423fc7e242359f2 e9c907a1f005c3f72b924e855ddd23c05d2db358 Amir Mehrabi <aut0run2011@gmail.com> 1514792296 +0330	commit: Fixed another bug
+e9c907a1f005c3f72b924e855ddd23c05d2db358 4f3228610d96cd646032be728d0ab50314540ec4 Amir Mehrabi <aut0run2011@gmail.com> 1514792392 +0330	commit: fixed another bug
+4f3228610d96cd646032be728d0ab50314540ec4 4724dc872ed05d893066717fb8f29d00c1b0150e Amir Mehrabi <aut0run2011@gmail.com> 1514792464 +0330	commit: Beautified tables
+4724dc872ed05d893066717fb8f29d00c1b0150e 6aab4faaf4829741d31b0cae459f57c84797f505 Amir Mehrabi <aut0run2011@gmail.com> 1514792908 +0330	commit: Changed Toman to Rial
+6aab4faaf4829741d31b0cae459f57c84797f505 129ab04bbce741f443615af7f6b095cfbbf791ea Amir Mehrabi <aut0run2011@gmail.com> 1514793042 +0330	commit: Fixed a bug
+129ab04bbce741f443615af7f6b095cfbbf791ea fc2a2d097c76b217b592bb4affa8b88f049cb2d6 Amir Mehrabi <aut0run2011@gmail.com> 1514793682 +0330	commit: added faq page to footer
+fc2a2d097c76b217b592bb4affa8b88f049cb2d6 fe635983a04157bc4a1fd4ea6dd2a3a22af2b40a Amir Mehrabi <aut0run2011@gmail.com> 1514793731 +0330	commit: added header to footer
+fe635983a04157bc4a1fd4ea6dd2a3a22af2b40a 4aecdcf284ebebd27e0db403f19d981929234aa9 Amir Mehrabi <aut0run2011@gmail.com> 1514793819 +0330	commit: Test
+4aecdcf284ebebd27e0db403f19d981929234aa9 8138a50e1d2effe3ad469fa3743243a9862ff177 Amir Mehrabi <aut0run2011@gmail.com> 1514793885 +0330	commit: Fixed broken link
+8138a50e1d2effe3ad469fa3743243a9862ff177 862a95559898bd28b70c277a7b02e61978f4fb43 Amir Mehrabi <aut0run2011@gmail.com> 1514959412 +0330	commit: Fixed wrong date in transactions
+862a95559898bd28b70c277a7b02e61978f4fb43 c829e1bdcfef6320236c88ae98849bace414c4b5 Amir Mehrabi <aut0run2011@gmail.com> 1515040427 +0330	commit: push custom error exception
+c829e1bdcfef6320236c88ae98849bace414c4b5 09cf5f11910c5579d536e358307a2e4519f3c566 Amir Mehrabi <aut0run2011@gmail.com> 1515041006 +0330	commit: custom error exception
+09cf5f11910c5579d536e358307a2e4519f3c566 c4798fd2cbb96208a3baeae8aa6714f609ced355 Amir Mehrabi <aut0run2011@gmail.com> 1515042162 +0330	commit: handled exceptions just fine and beautiful
+c4798fd2cbb96208a3baeae8aa6714f609ced355 c8e63cb8a8fe1c6af909ba4c10892841c7a009fa Amir Mehrabi <aut0run2011@gmail.com> 1515666543 +0330	commit: Fixed some bugs
+c8e63cb8a8fe1c6af909ba4c10892841c7a009fa 7cda13873ffd55ec5916b299241178f238b56eb4 Amir Mehrabi <aut0run2011@gmail.com> 1515666608 +0330	commit: Return simple exceptions for now
+7cda13873ffd55ec5916b299241178f238b56eb4 80eb74b78467018b530b65d796ce63a54c0958aa Amir Mehrabi <aut0run2011@gmail.com> 1515666974 +0330	commit: empty activities are now broadcasted to user in profile
+80eb74b78467018b530b65d796ce63a54c0958aa 6b65aa5515180a45ebbc37afdb4f3a8d0a332946 Amir Mehrabi <aut0run2011@gmail.com> 1515820987 +0330	commit: bug fixes and stuff
+6b65aa5515180a45ebbc37afdb4f3a8d0a332946 3262f5007ed6230c13b3eb2b64532fbe45321ec4 Amir Mehrabi <aut0run2011@gmail.com> 1515821003 +0330	commit: some other bug fixes
+3262f5007ed6230c13b3eb2b64532fbe45321ec4 eb796a01c494c55f7f762f140974ff027390c5ff Amir Mehrabi <aut0run2011@gmail.com> 1515822618 +0330	commit: transaction search fixed
+eb796a01c494c55f7f762f140974ff027390c5ff ef8b2abe21c554fa4ca2d2e96a8318e9a64c0aae Amir Mehrabi <aut0run2011@gmail.com> 1515825366 +0330	commit: Fixed wrong name of pronunciation
+ef8b2abe21c554fa4ca2d2e96a8318e9a64c0aae 0f409d6886dca7502cb93f161aaef9288722b57f Amir Mehrabi <aut0run2011@gmail.com> 1515828324 +0330	commit: Final changes
+0f409d6886dca7502cb93f161aaef9288722b57f 8bfa9e8e847fd2074ba0dc2451295ad6d10cc187 Amir Mehrabi <aut0run2011@gmail.com> 1515830938 +0330	commit: added migration
+8bfa9e8e847fd2074ba0dc2451295ad6d10cc187 45f0e44725869a94bddd6f87eff11fa0c744cbdf Amir Mehrabi <aut0run2011@gmail.com> 1515831567 +0330	commit: test stats
+45f0e44725869a94bddd6f87eff11fa0c744cbdf 17fc5d11f0a74194b66d0bb0af62b2d6294c323c Amir Mehrabi <aut0run2011@gmail.com> 1515831965 +0330	commit: fix error in stats page
+17fc5d11f0a74194b66d0bb0af62b2d6294c323c b4267340f2a26715155823d74763e07f6c6205ec Amir Mehrabi <aut0run2011@gmail.com> 1515832206 +0330	commit: test
+b4267340f2a26715155823d74763e07f6c6205ec 04419d5bf7d627336a52d912ec5647be5f25e20f Amir Mehrabi <aut0run2011@gmail.com> 1515832270 +0330	commit: added Carbon
+04419d5bf7d627336a52d912ec5647be5f25e20f ec5aa6fadd859d5709a56edcfeb5be809f837007 Amir Mehrabi <aut0run2011@gmail.com> 1515832363 +0330	commit: fixed carbon error
+ec5aa6fadd859d5709a56edcfeb5be809f837007 67a29238a67567cf43649c4b79334d26de4f27c7 Amir Mehrabi <aut0run2011@gmail.com> 1515832635 +0330	commit: test
+67a29238a67567cf43649c4b79334d26de4f27c7 7096e1381f16586a890cc600522b495c00dc205f Amir Mehrabi <aut0run2011@gmail.com> 1515832727 +0330	commit: test session
+7096e1381f16586a890cc600522b495c00dc205f 1b09dce8f655b081f0eac01367f0d8f56a54d667 Amir Mehrabi <aut0run2011@gmail.com> 1515832763 +0330	commit: test
+1b09dce8f655b081f0eac01367f0d8f56a54d667 01f11994cbaac5073195a2e978ab0a2718acc77e Amir Mehrabi <aut0run2011@gmail.com> 1515832808 +0330	commit: count
+01f11994cbaac5073195a2e978ab0a2718acc77e f107e76d0047e3c30d580614739d6ace05b2023f Amir Mehrabi <aut0run2011@gmail.com> 1515832960 +0330	commit: test sessions
+f107e76d0047e3c30d580614739d6ace05b2023f 2da93136284e395f79506264866b7e73e3997532 Amir Mehrabi <aut0run2011@gmail.com> 1515833015 +0330	commit: test
+2da93136284e395f79506264866b7e73e3997532 26cf47e430dff11ceaa9a8aa5eb224aadad6ce01 Amir Mehrabi <aut0run2011@gmail.com> 1515833068 +0330	commit: test sessions
+26cf47e430dff11ceaa9a8aa5eb224aadad6ce01 016d3890b822585ccc3b240453237dbe6b9c5195 Amir Mehrabi <aut0run2011@gmail.com> 1515833091 +0330	commit: completed sessions
+016d3890b822585ccc3b240453237dbe6b9c5195 a1d78d0639e49c5fad34085365dbef9efb602a53 Amir Mehrabi <aut0run2011@gmail.com> 1515833217 +0330	commit: test
+a1d78d0639e49c5fad34085365dbef9efb602a53 3be547260760abce69070d52d9c96910e77c8fc6 Amir Mehrabi <aut0run2011@gmail.com> 1515833288 +0330	commit: test
+3be547260760abce69070d52d9c96910e77c8fc6 5668569de0321478b9d639c89aeb63c72954166f Amir Mehrabi <aut0run2011@gmail.com> 1515833337 +0330	commit: test
+5668569de0321478b9d639c89aeb63c72954166f 5ad814714718034c0ce306872b5b7958c745a3a7 Amir Mehrabi <aut0run2011@gmail.com> 1515833369 +0330	commit: test
+5ad814714718034c0ce306872b5b7958c745a3a7 aa62097f24f35e12937776e6ab08ed20858ffdc4 Amir Mehrabi <aut0run2011@gmail.com> 1515906118 +0330	commit: Fixed some bugs
+aa62097f24f35e12937776e6ab08ed20858ffdc4 0bd226ae67594af7c14e05fb6e53ba8d75c44540 Amir Mehrabi <aut0run2011@gmail.com> 1516270735 +0330	commit: fixed a typo
+0bd226ae67594af7c14e05fb6e53ba8d75c44540 880fa47e36a8905507cd1f044276351f0c7e5bba Amir Mehrabi <aut0run2011@gmail.com> 1516424951 +0330	commit: Fixed #10
+880fa47e36a8905507cd1f044276351f0c7e5bba b996b174dbae2e118f6f7bd44b058564efeee9b1 Amir Mehrabi <aut0run2011@gmail.com> 1516515629 +0330	commit: fixed a bug
+b996b174dbae2e118f6f7bd44b058564efeee9b1 1dbb61a890b06f4a1ec4ced507e512f079f00e14 Amir Mehrabi <aut0run2011@gmail.com> 1516517261 +0330	commit: fix profile bug
+1dbb61a890b06f4a1ec4ced507e512f079f00e14 f1845215d8f6abc9457e5bed71f4826d1fa3ad0d Amir Mehrabi <aut0run2011@gmail.com> 1516517443 +0330	commit: fix problem of results in profile
+f1845215d8f6abc9457e5bed71f4826d1fa3ad0d 509b09b69f9567bef6dd0eec56a8023ea90ef32c Amir Mehrabi <aut0run2011@gmail.com> 1516518420 +0330	commit: fixed a bug
+509b09b69f9567bef6dd0eec56a8023ea90ef32c 4c2dff93be78ff57adb25c8b9c3381b81449f8b8 Amir Mehrabi <aut0run2011@gmail.com> 1516597641 +0330	commit: fixed an issue
+4c2dff93be78ff57adb25c8b9c3381b81449f8b8 b063d78082f3ff7f4cd8081dc06be46977bcb88b Amir Mehrabi <aut0run2011@gmail.com> 1529486509 +0430	commit: Last version before changes
+b063d78082f3ff7f4cd8081dc06be46977bcb88b de6a946fdee4a65715975f0aa501b83809db94a9 Amir Mehrabi <aut0run2011@gmail.com> 1534568436 +0430	commit: Final commit before submitting changes
+de6a946fdee4a65715975f0aa501b83809db94a9 b0ad7190ec5a33a15da52a8ab1e2f78966b2ad2f Amir Mehrabi <aut0run2011@gmail.com> 1534569601 +0430	commit: Added validation to exam page
+b0ad7190ec5a33a15da52a8ab1e2f78966b2ad2f a5f1e0b098b4aad5ff34b43a3b70aa674e5e87a2 Amir Mehrabi <aut0run2011@gmail.com> 1534569618 +0430	commit: Questions are now random

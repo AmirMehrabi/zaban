@@ -1,0 +1,348 @@
+body {
+  direction: rtl;
+  font-family: 'IRANSans-web', 'GanjName' !IMPORTANT;
+  color: #294165;
+}
+
+input, button {
+  font-family: 'IRANSans-web', 'GanjName' !IMPORTANT;
+}
+
+.bg-color {
+  color: #294165;
+}
+
+p {
+  color: #444;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+section {
+  padding: 70px;
+}
+
+
+section.intro {
+  background: #ccc;
+  background: url('../img/intro1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-description {
+  background: rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+
+.section-a {
+  background: #f1f1f1;
+  border-top: 0.1rem solid #DCDEDD;
+}
+
+.section-b {
+  background: #fff;
+  border-top: 0.1rem solid #DCDEDD;
+}
+
+.shadow-1 {
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.17);
+}
+
+
+.shadow-2 {
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
+}
+
+.bg-light {
+  background: #f1f1f1;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+
+
+footer {
+  background: #020621;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+footer a, footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.vocabulary-box img {
+  height: 200px !IMPORTANT;
+  object-fit: cover;
+}
+
+.shadow-card {
+    box-shadow: 0 2px 6px -2px rgba(22,22,22,0.45);
+}
+
+.bondle-box {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #fafafa;
+}
+
+.course-thumb-img {
+  width: 100%;
+  height: 200px !IMPORTANT;
+  object-fit: cover;
+}
+
+.vocab-box {
+  position: absolute;
+      bottom: 11%;
+      text-align: center;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      width: 100%;
+}
+.category-box {
+  border-radius: 0 0 10px 10px;
+  line-height: 23px;
+  background: #eee;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.category-box-img {
+  border-top-left-radius: 5px !IMPORTANT;
+  border-top-right-radius: 5px !IMPORTANT;
+  transition: all .2s ease-in-out;
+}
+
+.category-box:hover { transform: scale(1.02); }
+
+.thumbnail-box a {
+  color: #292b3e !IMPORTANT;
+  text-decoration: none;
+}
+
+.thumbnail-box {
+  transition: all .2s ease-in-out;
+}
+
+.thumbnail-box:hover {
+  transform: scale(1.02);
+}
+
+.img-cover {
+  height: 100%;
+  object-fit: cover;
+}
+
+.scale {
+  transition: all .2s ease-in-out;
+}
+
+.scale:hover {
+  transform: scale(1.02);
+}
+
+.course-thumbnail {
+  object-fit: cover;
+  border: 0.1rem solid #DCDEDD;
+}
+
+.widget-title {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.widget-title span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.herald-mod-head:after, .herald-mod-title .herald-color, .widget-title:after, .widget-title span {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.widget-title:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -11px;
+    right: 0;
+}
+
+.intro {
+  color: #fff;
+  background-size: cover !IMPORTANT;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.course-thumb-img {
+  width: 100%;
+  height: 200px !IMPORTANT;
+  object-fit: cover;
+}
+
+
+.vocab-box {
+  position: absolute;
+      bottom: 0%;
+      text-align: center;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      width: 100%;
+}
+
+.vocab-box p {
+  color: #fff;
+}
+
+.course-thumbnail {
+  height: 160px;
+  object-fit: cover;
+  border: 0.1rem solid #DCDEDD;
+}
+
+.bondle-box {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #fafafa;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.news-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+
+.content-box{
+  position: relative;
+  display: block;
+  margin: .75rem 0;
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: -2px 2px 1px #ccc,2px 2px 1px #ccc;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: none;
+  padding: 10px;
+}
+
+.GanjName {
+  font-family: 'GanjName' !IMPORTANT;
+}
+
+.header p {
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-image  {
+	padding-top: 0px;
+	padding-bottom: 0px;
+  height: 15px;
+  width: 15px;
+}
+
+.course-thumbnail-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.exam-pic {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.footer-h-link {
+  border-bottom: 1px dotted #9a9a9a;
+  padding: 10px 0px;
+}
+
+.footer-link {
+  transition: all .2s ease-in-out;
+  margin: 5px;
+}
+
+.footer-link:hover {
+
+}
+
+.flip, .flip-icon{
+  transition: 0.5s;
+
+}
+
+.flip-icon {
+  color: #003b6d;
+}
+
+.flip:hover .flip-icon {
+  transform: rotateY(180deg) scale(1.2);
+}
+
+.flip:hover {
+  background: #f8f8f8;
+}
+
+
+.intro-primary {
+  line-height: 1.3em;
+}
+.intro-secondary {
+  line-height: 1.3em;
+  font-weight: 300;
+}
+
+.dropdown-item {
+  text-align: right;
+}
+
+.carousel-indicators li {
+  background-color: rgba(158, 158, 158, 0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #31708f;
+}
+
+
+.gray {
+  color: #31708f;
+}
+
+.ltr {
+  direction: ltr;
+}
