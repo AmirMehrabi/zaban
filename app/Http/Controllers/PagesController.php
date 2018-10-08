@@ -1027,7 +1027,7 @@ public function submit_course_exam(Request $request, $id){
     		$gateway = \Gateway::mellat();
     		$gateway->setCallback(('callback'));
     		$gateway->price($request->input('total'))->ready();
-    		$refId =  $gateway->refId();
+    		$refId =  $sgateway->refId();
     		$transID = $gateway->transactionId();
 
     		// Your code here

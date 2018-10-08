@@ -64,6 +64,20 @@
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">استان</label>
+                  {!! Form::text('state', $user->state, ['class' => 'form-control', 'placeholder' => 'استان']) !!}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">شهر</label>
+                  {!! Form::text('city', $user->city, ['class' => 'form-control', 'placeholder' => 'شهر']) !!}
+                </div>
+              </div>
+            </div>
 
             <div class="row">
               <div class="col-md-12">
