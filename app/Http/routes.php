@@ -139,6 +139,8 @@ Route::resource('admin/reports/courses', 'ReportController');
 
 Route::resource('admin/payments', 'PaymentController', ['except' => 'show']);
 
+Route::resource('admin/faqs', 'FaqController', ['except' => 'show']);
+
 Route::resource('admin/posts', 'PostController', ['except' => 'show' ]);
 
 Route::get('admin/categories/{categoryId}/editCourse/{id}', ['as' => 'admin.categories.editCourse', 'uses' => 'CategoryController@editCourse']);

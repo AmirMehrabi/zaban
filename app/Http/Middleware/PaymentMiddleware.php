@@ -21,7 +21,10 @@ class PaymentMiddleware
     {
       if (Auth::user()) {
         $paid = Payment::where('user_id', Auth::user()->id)->where('activated', 1)->orderBy('created_at', 'desc')->first();
-        if (!is_null($paid)) {
+        if (Auth::user()->is_admin == 1) {
+          Auth::user()->paid = 1;
+        }
+        elseif (!is_null($paid)) {
           $expiration_date = Carbon::parse($paid->payment_date)->addDays($paid->duration);
           if (Carbon::now() > $expiration_date) {
             Auth::user()->current_date = Carbon::now();

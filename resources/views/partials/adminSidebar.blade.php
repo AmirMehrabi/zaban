@@ -48,6 +48,20 @@
         <li class="{{Request::is('admin/subscription') ? ' active' : null}}"><a href="{{url('admin/subscription')}}"></i> مدیریت پلن ها</a></li>
         <li class="{{Request::is('admin/subscription/create') ? ' active' : null}}"><a href="{{url('admin/subscription/create')}}"></i> افزودن پلن ها</a></li>
       </ul>
+    </li>
+
+    <li class="{{ Request::is('admin/faqs') ||  Request::is('admin/faqs/create')  ? ' active' : null  || Request::is('admin/subscription/create') ? ' active' : null}} treeview">
+      <a href="{{route('admin.users.index')}}">
+      <i class="fa fa-user"></i><span>سوالات متداول</span>
+        <span class="pull-right-container">
+          <i class="fa fa-angle-left pull-right"></i>
+        </span>
+      </a>
+      <ul class="treeview-menu">
+        <li class="{{Request::is('admin/faqs') ? ' active' : null}}"><a href="{{url('admin/faqs')}}"></i>مدیریت سوال‌ها</a></li>
+        <li class="{{Request::is('admin/faqs/create') ? ' active' : null}}"><a href="{{url('admin/faqs/create')}}"></i> افزودن سوال</a></li>
+      </ul>
+    </li>
 
     <li class="{{ Request::is('admin/users') ||  Request::is('admin/users/create')  ? ' active' : null  || Request::is('admin/users/create') ? ' active' : null}} treeview">
       <a href="{{route('admin.users.index')}}">

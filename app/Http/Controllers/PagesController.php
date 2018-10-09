@@ -10,6 +10,7 @@ use App\Lesson;
 use App\Answer;
 use App\Question;
 use Auth;
+use App\Faq;
 use App\Category;
 use App\Vocabulary;
 use App\VocabCat;
@@ -81,7 +82,9 @@ class PagesController extends Controller
   }
 
   public function faq(){
-    return view('faq');
+
+    $faqs = Faq::all();
+    return view('faq', compact('faqs'));
   }
 
   public function post_contact(Request $request){
@@ -266,30 +269,7 @@ class PagesController extends Controller
         $category->save();
         $courses = $category->courses()->orderBy('lft')->get();
 
-        $paid = null;
-        if (Auth::user()) {
-          $paid = CourseSubscription::where('user_id', Auth::user()->id)->where('activated', 1)->where('category_id', $category->id)->orderBy('created_at', 'desc')->first();
-          if (!is_null($paid)) {
-            $expiration_date = Carbon::parse($paid->payment_date)->addDays($paid->duration);
-            if (Carbon::now() > $expiration_date) {
-              $category->current_date = Carbon::now();
-              $category->expiration_date = $expiration_date;
-              $category->paid = 0;
-              /*اشتراک به اتمام رسیده*/
-            }
-            elseif (Carbon::now() < $expiration_date) {
-              $category->current_date = Carbon::now();
-              $category->expiration_date = $expiration_date;
-              $category->remaining = $category->expiration_date->diffInDays($category->current_date);
-              $category->paid = 1;
-              /*دارای اشتراک*/
-            }
-          }
-          elseif (is_null($paid)) {
-            $category->paid = 2;
-            /*تا کنون اشتراک خریداری نشده*/
-          }
-        }
+
         /*end of subscription*/
 
         foreach ($courses as $course) {

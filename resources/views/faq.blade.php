@@ -33,26 +33,30 @@
           <h3>سوال و جواب‌های متداول</h3>
           <hr>
           <div id="accordion" role="tablist">
-            <div class="card">
-              <div class="card-header" role="tab" id="headingOne">
-                <h5 class="mb-0">
-                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    آیا بطور همزمان میشود  چند دوره را خریداری كرد؟
-                  </a>
-                </h5>
-              </div>
+            @foreach ($faqs as $key => $faq)
 
-              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  <p class="p-2">
-                    بله. هیچ منعی وجود ندارد.
-                  </p>
+              <div class="card">
+                <div class="card-header" role="tab" id="heading-{{$key}}">
+                  <h5 class="mb-0">
+                    <a data-toggle="collapse" href="#collapse-{{$key}}" aria-expanded="true" aria-controls="collapse-{{$key}}">
+                      {{$faq->question}}
+                    </a>
+                  </h5>
+                </div>
+
+                <div id="collapse-{{$key}}" class="collapse show" role="tabpanel" aria-labelledby="heading-{{$key}}" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="p-2">
+                      {{$faq->answer}}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            @endforeach
 
 
-            <div class="card">
+
+<!--            <div class="card">
               <div class="card-header" role="tab" id="headingTwo">
                 <h5 class="mb-0">
                   <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -67,7 +71,7 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div>-->
 
 
 

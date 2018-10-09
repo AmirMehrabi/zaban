@@ -111,7 +111,9 @@
             <!-- /.box-header -->
             <div class="box-body">
               @if (Auth::user()->paid == 1)
-                <p>وضعیت: <br> <span class="badge badge-pill badge-primary">دارای اشتراک</span> <span class="badge badge-pill badge-success">{{Auth::user()->remaining}} روز باقی مانده</span></p>
+                <p>وضعیت: <br> <span class="badge badge-pill badge-primary">دارای اشتراک</span> @if (Auth::user()->is_admin != 1)
+                  <span class="badge badge-pill badge-success">{{Auth::user()->remaining}} روز باقی مانده</span>
+                @endif </p>
               @elseif (Auth::user()->paid == 0)
                   <p>وضعیت: <span class="badge badge-pill badge-warning">اشتراک به اتمام رسیده</span></p>
                 @elseif (Auth::user()->paid == 2)
@@ -119,6 +121,9 @@
                 @elseif (Auth::guest())
                   <p>شما هنوز وارد سیستم نشده اید.</p>
               @endif
+
+
+
             </div>
             <!-- /.box-body -->
           </div>
