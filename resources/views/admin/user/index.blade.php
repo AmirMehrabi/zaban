@@ -48,9 +48,10 @@
                             <tr>
                               <th>#</th>
                               <th>نام کاربر</th>
-                              <th>تاریخ آخرین فعالیت</th>
                               <th>ایمیل کاربر</th>
+                              <th>تاریخ آخرین فعالیت</th>
                               <th>تاریخ ثبت نام</th>
+                              <th>مدت عضویت</th>
                               <th><em class="fa fa-user-circle"></em> نقش</th>
                               <th><em class="fa fa-area-chart"></em> فعالیت ها</th>
                               <th class="text-center"><em class="fa fa-cog"></em></th>
@@ -63,17 +64,19 @@
                                   <td>
                                     {{$user->name}}
                                   </td>
-                                  <td class="text-center">
-                                    {{ $user->updated_at }} <br>
-                                    {{$user->updated_at->diffForHumans()}}
-                                  </td>
 
                                   <td>
                                     {{$user->email}}
                                   </td>
 
+                                  <td class="text-center">
+                                    {{jDate($user->updated_at )->format('date')}}
+                                  </td>
                                   <td>
                                     {{jDate($user->created_at )->format('date')}}
+                                  </td>
+                                  <td>
+                                    {{$user->created_at->diffForHumans()}}
                                   </td>
 
                                   <td>
