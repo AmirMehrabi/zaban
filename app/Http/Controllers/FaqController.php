@@ -133,6 +133,12 @@ class FaqController extends Controller
      */
     public function destroy($id)
     {
-        //
+      $faq = Faq::findOrFail($id);
+
+      $faq->delete();
+
+      flash('نوشته مورد نظر با موفقیت حذف شد.');
+
+      return redirect::back();
     }
 }

@@ -59,14 +59,7 @@
                                   </td>
 
 
-                                  <td>
-                                    @if ($faq->is_special === 0)
-                                      <span class="label label-default">صفحهٔ معمولی </span>
-                                    @elseif ($faq->is_special === 1)
-                                      <span class="label label-success">صفحهٔ ویژه </span>
-                                    @endif
 
-                                  </td>
 
 
 
