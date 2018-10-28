@@ -44,7 +44,7 @@
                   </h5>
                 </div>
 
-                <div id="collapse-{{$key}}" class="collapse show" role="tabpanel" aria-labelledby="heading-{{$key}}" data-parent="#accordion">
+                <div id="collapse-{{$key}}" class="collapse" role="tabpanel" aria-labelledby="heading-{{$key}}" data-parent="#accordion">
                   <div class="card-body">
                     <p class="p-2">
                       {{$faq->answer}}
