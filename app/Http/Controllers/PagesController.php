@@ -1139,6 +1139,7 @@ public function submit_course_exam(Request $request, $id){
 
     	} catch (Exception $e) {
         $error = $e->getMessage();
+        dd($error);
         return view('bank-result', compact('error'));
     	}
 
@@ -1179,7 +1180,7 @@ public function submit_course_exam(Request $request, $id){
 
         public function paymentTest(Request $request){
           try {
-        		$gateway = \Gateway::zarinpal();
+        		$gateway = \Gateway::Mellat();
         		$gateway->setCallback(('callback/'));
         		$gateway->price(1000)->ready();
         		$refId =  $gateway->refId();

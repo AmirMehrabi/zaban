@@ -15,7 +15,7 @@ return [
         'merchant-id'  => '924d8b18-5fac-11e7-ae66-005056a205be',
         'type'         => 'normal',             // Types: [zarin-gate || normal]
         'callback-url' => '/',
-        'server'       => 'iran',                // Servers: [germany || iran || test]
+        'server'       => 'test',                // Servers: [germany || iran || test]
         'email'        => 'aut0run2011@gmail.com',
         'mobile'       => '09361856604',
         'description'  => 'خرید اشتراک',
